@@ -1,0 +1,20 @@
+{
+  "package_name": "moveit_wrapper_interfaces",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:msg/Waypoint.msg",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:msg/WaypointSequence.msg",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/AddColObj.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/AttachObj.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/DettachObj.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/ExecutePlans.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/GetAttachedObjs.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/GetColObj.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/GetNamedTarget.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/GetNamedTargets.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/GotoNamedTarget.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/Plan.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/PlanJoints.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/RemoveColObj.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces:srv/MoveTorso.srv"
+  ]
+}

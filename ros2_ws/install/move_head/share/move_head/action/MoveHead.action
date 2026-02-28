@@ -1,0 +1,11 @@
+# Goal - desired head joint angles
+float32 pan_angle   # head_1_joint (radians, positive = left)
+float32 tilt_angle  # head_2_joint (radians, positive = down)
+---
+# Result - returns True or False if motion was successful
+bool success
+string message
+---
+# Feedback (optional)
+float32 current_pan
+float32 current_tilt

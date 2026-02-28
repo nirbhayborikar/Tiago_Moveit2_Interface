@@ -1,0 +1,9 @@
+sensor_msgs/JointState[] joint_states
+moveit_msgs/Constraints path_constraints    #list of global constraints for this movement, each waypoint can have additional constraints
+
+bool send_partial   #If set to true and there is an error while planing, the response contain the plan until the error
+
+bool use_start_state #if true start_state will be used as the starting state
+moveit_msgs/RobotState start_state
+
+string move_group

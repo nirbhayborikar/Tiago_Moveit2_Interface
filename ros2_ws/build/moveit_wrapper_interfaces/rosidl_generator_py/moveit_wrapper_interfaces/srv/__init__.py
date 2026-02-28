@@ -1,0 +1,13 @@
+from moveit_wrapper_interfaces.srv._add_col_obj import AddColObj  # noqa: F401
+from moveit_wrapper_interfaces.srv._attach_obj import AttachObj  # noqa: F401
+from moveit_wrapper_interfaces.srv._dettach_obj import DettachObj  # noqa: F401
+from moveit_wrapper_interfaces.srv._execute_plans import ExecutePlans  # noqa: F401
+from moveit_wrapper_interfaces.srv._get_attached_objs import GetAttachedObjs  # noqa: F401
+from moveit_wrapper_interfaces.srv._get_col_obj import GetColObj  # noqa: F401
+from moveit_wrapper_interfaces.srv._get_named_target import GetNamedTarget  # noqa: F401
+from moveit_wrapper_interfaces.srv._get_named_targets import GetNamedTargets  # noqa: F401
+from moveit_wrapper_interfaces.srv._goto_named_target import GotoNamedTarget  # noqa: F401
+from moveit_wrapper_interfaces.srv._move_torso import MoveTorso  # noqa: F401
+from moveit_wrapper_interfaces.srv._plan import Plan  # noqa: F401
+from moveit_wrapper_interfaces.srv._plan_joints import PlanJoints  # noqa: F401
+from moveit_wrapper_interfaces.srv._remove_col_obj import RemoveColObj  # noqa: F401

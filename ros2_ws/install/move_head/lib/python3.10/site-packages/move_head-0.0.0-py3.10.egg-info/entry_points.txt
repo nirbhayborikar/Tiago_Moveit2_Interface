@@ -1,0 +1,4 @@
+[console_scripts]
+move_head = move_head.move_head:main
+move_head_action_server = move_head.move_head_action_server:main
+

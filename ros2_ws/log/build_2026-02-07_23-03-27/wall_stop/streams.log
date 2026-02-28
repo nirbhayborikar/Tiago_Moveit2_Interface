@@ -1,0 +1,38 @@
+[4.229s] Invoking command in '/root/ros2_ws/src/25ws_nb-246830/stage_3/wall_stop': PYTHONPATH=/root/ros2_ws/build/wall_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/wall_stop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/wall_stop build --build-base /root/ros2_ws/build/wall_stop/build install --record /root/ros2_ws/build/wall_stop/install.log --single-version-externally-managed install_data
+[5.047s] running egg_info
+[5.047s] creating ../../../../build/wall_stop/wall_stop.egg-info
+[5.054s] writing ../../../../build/wall_stop/wall_stop.egg-info/PKG-INFO
+[5.058s] writing dependency_links to ../../../../build/wall_stop/wall_stop.egg-info/dependency_links.txt
+[5.058s] writing entry points to ../../../../build/wall_stop/wall_stop.egg-info/entry_points.txt
+[5.058s] writing requirements to ../../../../build/wall_stop/wall_stop.egg-info/requires.txt
+[5.058s] writing top-level names to ../../../../build/wall_stop/wall_stop.egg-info/top_level.txt
+[5.059s] writing manifest file '../../../../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+[5.066s] reading manifest file '../../../../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+[5.066s] adding license file 'LICENSE'
+[5.068s] writing manifest file '../../../../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+[5.068s] running build
+[5.068s] running build_py
+[5.068s] creating /root/ros2_ws/build/wall_stop/build
+[5.069s] creating /root/ros2_ws/build/wall_stop/build/lib
+[5.070s] creating /root/ros2_ws/build/wall_stop/build/lib/wall_stop
+[5.070s] copying wall_stop/wall_stop_node.py -> /root/ros2_ws/build/wall_stop/build/lib/wall_stop
+[5.070s] copying wall_stop/__init__.py -> /root/ros2_ws/build/wall_stop/build/lib/wall_stop
+[5.072s] running install
+[5.072s] running install_lib
+[5.076s] creating /root/ros2_ws/install/wall_stop/lib/python3.10/site-packages/wall_stop
+[5.076s] copying /root/ros2_ws/build/wall_stop/build/lib/wall_stop/wall_stop_node.py -> /root/ros2_ws/install/wall_stop/lib/python3.10/site-packages/wall_stop
+[5.076s] copying /root/ros2_ws/build/wall_stop/build/lib/wall_stop/__init__.py -> /root/ros2_ws/install/wall_stop/lib/python3.10/site-packages/wall_stop
+[5.082s] byte-compiling /root/ros2_ws/install/wall_stop/lib/python3.10/site-packages/wall_stop/wall_stop_node.py to wall_stop_node.cpython-310.pyc
+[5.084s] byte-compiling /root/ros2_ws/install/wall_stop/lib/python3.10/site-packages/wall_stop/__init__.py to __init__.cpython-310.pyc
+[5.084s] running install_data
+[5.084s] creating /root/ros2_ws/install/wall_stop/share/ament_index
+[5.084s] creating /root/ros2_ws/install/wall_stop/share/ament_index/resource_index
+[5.084s] creating /root/ros2_ws/install/wall_stop/share/ament_index/resource_index/packages
+[5.084s] copying resource/wall_stop -> /root/ros2_ws/install/wall_stop/share/ament_index/resource_index/packages
+[5.085s] copying package.xml -> /root/ros2_ws/install/wall_stop/share/wall_stop
+[5.085s] running install_egg_info
+[5.089s] Copying ../../../../build/wall_stop/wall_stop.egg-info to /root/ros2_ws/install/wall_stop/lib/python3.10/site-packages/wall_stop-0.0.0-py3.10.egg-info
+[5.089s] running install_scripts
+[5.136s] Installing wall_stop_node script to /root/ros2_ws/install/wall_stop/lib/wall_stop
+[5.136s] writing list of installed files to '/root/ros2_ws/build/wall_stop/install.log'
+[5.187s] Invoked command in '/root/ros2_ws/src/25ws_nb-246830/stage_3/wall_stop' returned '0': PYTHONPATH=/root/ros2_ws/build/wall_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/wall_stop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/wall_stop build --build-base /root/ros2_ws/build/wall_stop/build install --record /root/ros2_ws/build/wall_stop/install.log --single-version-externally-managed install_data

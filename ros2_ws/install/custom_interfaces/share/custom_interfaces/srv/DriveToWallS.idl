@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/DriveToWallS.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct DriveToWallS_Request {
+      double linear_x;
+
+      double min_distance;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct DriveToWallS_Response {
+      string message;
+
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.004785] (-) JobUnselected: {'identifier': 'apriltag'}
+[0.005218] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.005514] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.005763] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.008361] (-) JobUnselected: {'identifier': 'drive_to_wall'}
+[0.013142] (-) JobUnselected: {'identifier': 'move_head'}
+[0.013599] (-) JobUnselected: {'identifier': 'moveit_wrapper'}
+[0.013865] (-) JobUnselected: {'identifier': 'moveit_wrapper_interfaces'}
+[0.014172] (-) JobUnselected: {'identifier': 'moveit_wrapper_test'}
+[0.014490] (-) JobUnselected: {'identifier': 'my_nav2'}
+[0.014728] (-) JobUnselected: {'identifier': 'my_package'}
+[0.014975] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.016769] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.017825] (-) JobUnselected: {'identifier': 'tf_test'}
+[0.018192] (-) JobUnselected: {'identifier': 'tiago_inspection'}
+[0.018501] (-) JobUnselected: {'identifier': 'wall_stop'}
+[0.018812] (-) JobUnselected: {'identifier': 'wrapper_collision_marker'}
+[0.019306] (clean_the_table) JobQueued: {'identifier': 'clean_the_table', 'dependencies': OrderedDict()}
+[0.019650] (clean_the_table) JobStarted: {'identifier': 'clean_the_table'}
+[0.104373] (-) TimerEvent: {}
+[0.205760] (-) TimerEvent: {}
+[0.308577] (-) TimerEvent: {}
+[0.412382] (-) TimerEvent: {}
+[0.516877] (-) TimerEvent: {}
+[0.619893] (-) TimerEvent: {}
+[0.723424] (-) TimerEvent: {}
+[0.827095] (-) TimerEvent: {}
+[0.932484] (-) TimerEvent: {}
+[1.038583] (-) TimerEvent: {}
+[1.144779] (-) TimerEvent: {}
+[1.249586] (-) TimerEvent: {}
+[1.354507] (-) TimerEvent: {}
+[1.458356] (-) TimerEvent: {}
+[1.563388] (-) TimerEvent: {}
+[1.665549] (-) TimerEvent: {}
+[1.767576] (-) TimerEvent: {}
+[1.870498] (-) TimerEvent: {}
+[1.979486] (-) TimerEvent: {}
+[2.082344] (-) TimerEvent: {}
+[2.184231] (-) TimerEvent: {}
+[2.286433] (-) TimerEvent: {}
+[2.392361] (-) TimerEvent: {}
+[2.495728] (-) TimerEvent: {}
+[2.597443] (-) TimerEvent: {}
+[2.701476] (-) TimerEvent: {}
+[2.807803] (-) TimerEvent: {}
+[2.910536] (-) TimerEvent: {}
+[3.012441] (-) TimerEvent: {}
+[3.120886] (-) TimerEvent: {}
+[3.222639] (-) TimerEvent: {}
+[3.324813] (-) TimerEvent: {}
+[3.428331] (-) TimerEvent: {}
+[3.531533] (-) TimerEvent: {}
+[3.635307] (-) TimerEvent: {}
+[3.736874] (-) TimerEvent: {}
+[3.840240] (-) TimerEvent: {}
+[3.943643] (-) TimerEvent: {}
+[4.048757] (-) TimerEvent: {}
+[4.150574] (-) TimerEvent: {}
+[4.253029] (-) TimerEvent: {}
+[4.363298] (-) TimerEvent: {}
+[4.465407] (-) TimerEvent: {}
+[4.568041] (-) TimerEvent: {}
+[4.671102] (-) TimerEvent: {}
+[4.779389] (-) TimerEvent: {}
+[4.881454] (-) TimerEvent: {}
+[4.987848] (-) TimerEvent: {}
+[5.094572] (-) TimerEvent: {}
+[5.199949] (-) TimerEvent: {}
+[5.303946] (-) TimerEvent: {}
+[5.405548] (-) TimerEvent: {}
+[5.508263] (-) TimerEvent: {}
+[5.609624] (-) TimerEvent: {}
+[5.710558] (-) TimerEvent: {}
+[5.812613] (-) TimerEvent: {}
+[5.915594] (-) TimerEvent: {}
+[6.017796] (-) TimerEvent: {}
+[6.119714] (-) TimerEvent: {}
+[6.222154] (-) TimerEvent: {}
+[6.322963] (-) TimerEvent: {}
+[6.425377] (-) TimerEvent: {}
+[6.529029] (-) TimerEvent: {}
+[6.539078] (clean_the_table) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/root/ros2_ws/build/clean_the_table/build', '--no-deps', 'symlink_data'], 'cwd': '/root/ros2_ws/build/clean_the_table', 'env': {'HOSTNAME': 'nirbhayborikar-HP-Pavilion-x360-Convertible-14-dh1xxx', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,video,utility,graphics', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REPO': '/root/ros2_ws/src/prj-iki-ros2/knowledgebase/iki_object_models', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XAUTHORITY': '/tmp/.Xauthority', 'ROS_DOMAIN_ID': '8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_WS': '/root/ros2_ws', 'TIAGO_WS': '/root/tiago_ws', 'PWD': '/root/ros2_ws/build/clean_the_table', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/root/ros2_ws/build/clean_the_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[6.629478] (-) TimerEvent: {}
+[6.732830] (-) TimerEvent: {}
+[6.833561] (-) TimerEvent: {}
+[6.936370] (-) TimerEvent: {}
+[7.046904] (-) TimerEvent: {}
+[7.150671] (-) TimerEvent: {}
+[7.252707] (-) TimerEvent: {}
+[7.356836] (-) TimerEvent: {}
+[7.461527] (-) TimerEvent: {}
+[7.563903] (-) TimerEvent: {}
+[7.666418] (-) TimerEvent: {}
+[7.767307] (-) TimerEvent: {}
+[7.872264] (-) TimerEvent: {}
+[7.979481] (-) TimerEvent: {}
+[8.081043] (-) TimerEvent: {}
+[8.188276] (-) TimerEvent: {}
+[8.289229] (-) TimerEvent: {}
+[8.379822] (clean_the_table) StdoutLine: {'line': b'running develop\n'}
+[8.389914] (-) TimerEvent: {}
+[8.493956] (-) TimerEvent: {}
+[8.595185] (-) TimerEvent: {}
+[8.696723] (-) TimerEvent: {}
+[8.800260] (-) TimerEvent: {}
+[8.901009] (-) TimerEvent: {}
+[9.001916] (-) TimerEvent: {}
+[9.105150] (-) TimerEvent: {}
+[9.205806] (-) TimerEvent: {}
+[9.306983] (-) TimerEvent: {}
+[9.413228] (-) TimerEvent: {}
+[9.433275] (clean_the_table) StdoutLine: {'line': b'running egg_info\n'}
+[9.434827] (clean_the_table) StdoutLine: {'line': b'creating clean_the_table.egg-info\n'}
+[9.435713] (clean_the_table) StdoutLine: {'line': b'writing clean_the_table.egg-info/PKG-INFO\n'}
+[9.440544] (clean_the_table) StdoutLine: {'line': b'writing dependency_links to clean_the_table.egg-info/dependency_links.txt\n'}
+[9.443086] (clean_the_table) StdoutLine: {'line': b'writing entry points to clean_the_table.egg-info/entry_points.txt\n'}
+[9.444085] (clean_the_table) StdoutLine: {'line': b'writing requirements to clean_the_table.egg-info/requires.txt\n'}
+[9.448208] (clean_the_table) StdoutLine: {'line': b'writing top-level names to clean_the_table.egg-info/top_level.txt\n'}
+[9.448889] (clean_the_table) StdoutLine: {'line': b"writing manifest file 'clean_the_table.egg-info/SOURCES.txt'\n"}
+[9.456976] (clean_the_table) StdoutLine: {'line': b"reading manifest file 'clean_the_table.egg-info/SOURCES.txt'\n"}
+[9.457517] (clean_the_table) StdoutLine: {'line': b"writing manifest file 'clean_the_table.egg-info/SOURCES.txt'\n"}
+[9.463917] (clean_the_table) StdoutLine: {'line': b'running build_ext\n'}
+[9.466704] (clean_the_table) StdoutLine: {'line': b'Creating /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean-the-table.egg-link (link to .)\n'}
+[9.470410] (clean_the_table) StdoutLine: {'line': b'Installing drive_to_table script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table\n'}
+[9.472126] (clean_the_table) StdoutLine: {'line': b'Installing scene_analysis script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table\n'}
+[9.473333] (clean_the_table) StdoutLine: {'line': b'\n'}
+[9.473842] (clean_the_table) StdoutLine: {'line': b'Installed /root/ros2_ws/build/clean_the_table\n'}
+[9.474272] (clean_the_table) StdoutLine: {'line': b'running symlink_data\n'}
+[9.474723] (clean_the_table) StdoutLine: {'line': b'creating /root/ros2_ws/install/clean_the_table/share/ament_index\n'}
+[9.476693] (clean_the_table) StdoutLine: {'line': b'creating /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index\n'}
+[9.477250] (clean_the_table) StdoutLine: {'line': b'creating /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages\n'}
+[9.478676] (clean_the_table) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/clean_the_table/resource/clean_the_table -> /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages\n'}
+[9.479476] (clean_the_table) StdoutLine: {'line': b'symbolically linking /root/ros2_ws/build/clean_the_table/package.xml -> /root/ros2_ws/install/clean_the_table/share/clean_the_table\n'}
+[9.513398] (-) TimerEvent: {}
+[9.613794] (clean_the_table) CommandEnded: {'returncode': 0}
+[9.619024] (-) TimerEvent: {}
+[9.710734] (clean_the_table) JobEnded: {'identifier': 'clean_the_table', 'rc': 0}
+[9.714160] (-) EventReactorShutdown: {}

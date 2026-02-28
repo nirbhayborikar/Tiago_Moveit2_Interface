@@ -1,0 +1,25 @@
+[6.535s] Invoking command in '/root/ros2_ws/build/clean_the_table': PYTHONPATH=/root/ros2_ws/build/clean_the_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/clean_the_table/build --no-deps symlink_data
+[8.362s] running develop
+[9.414s] running egg_info
+[9.416s] creating clean_the_table.egg-info
+[9.417s] writing clean_the_table.egg-info/PKG-INFO
+[9.423s] writing dependency_links to clean_the_table.egg-info/dependency_links.txt
+[9.424s] writing entry points to clean_the_table.egg-info/entry_points.txt
+[9.428s] writing requirements to clean_the_table.egg-info/requires.txt
+[9.429s] writing top-level names to clean_the_table.egg-info/top_level.txt
+[9.430s] writing manifest file 'clean_the_table.egg-info/SOURCES.txt'
+[9.438s] reading manifest file 'clean_the_table.egg-info/SOURCES.txt'
+[9.438s] writing manifest file 'clean_the_table.egg-info/SOURCES.txt'
+[9.446s] running build_ext
+[9.447s] Creating /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean-the-table.egg-link (link to .)
+[9.452s] Installing drive_to_table script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+[9.453s] Installing scene_analysis script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+[9.454s] 
+[9.454s] Installed /root/ros2_ws/build/clean_the_table
+[9.455s] running symlink_data
+[9.457s] creating /root/ros2_ws/install/clean_the_table/share/ament_index
+[9.457s] creating /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index
+[9.459s] creating /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages
+[9.459s] symbolically linking /root/ros2_ws/build/clean_the_table/resource/clean_the_table -> /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages
+[9.460s] symbolically linking /root/ros2_ws/build/clean_the_table/package.xml -> /root/ros2_ws/install/clean_the_table/share/clean_the_table
+[9.599s] Invoked command in '/root/ros2_ws/build/clean_the_table' returned '0': PYTHONPATH=/root/ros2_ws/build/clean_the_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/build/clean_the_table/build --no-deps symlink_data

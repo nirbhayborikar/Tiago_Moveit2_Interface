@@ -1,0 +1,4 @@
+float32 joint_value
+bool relative           # if this is set to true joint_value will be added to the current joint value
+
+string move_group

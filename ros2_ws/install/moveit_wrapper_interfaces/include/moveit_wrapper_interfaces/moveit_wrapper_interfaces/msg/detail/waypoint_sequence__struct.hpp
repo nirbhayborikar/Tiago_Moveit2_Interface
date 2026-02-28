@@ -1,0 +1,1 @@
+/root/ros2_ws/build/moveit_wrapper_interfaces/rosidl_generator_cpp/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__struct.hpp

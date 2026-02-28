@@ -1,0 +1,41 @@
+[3.355s] Invoking command in '/root/ros2_ws/build/clean_the_table': PYTHONPATH=/root/ros2_ws/build/clean_the_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/clean_the_table/build
+[4.484s] running develop
+[5.172s] Removing /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean-the-table.egg-link (link to .)
+[5.408s] Invoked command in '/root/ros2_ws/build/clean_the_table' returned '0': PYTHONPATH=/root/ros2_ws/build/clean_the_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/build/clean_the_table/build
+[5.409s] Invoking command in '/root/ros2_ws/src/25ws_nb-246830/stage_6/final_project/clean_the_table': PYTHONPATH=/root/ros2_ws/build/clean_the_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/clean_the_table build --build-base /root/ros2_ws/build/clean_the_table/build install --record /root/ros2_ws/build/clean_the_table/install.log --single-version-externally-managed install_data --force
+[6.221s] running egg_info
+[6.223s] writing ../../../../../build/clean_the_table/clean_the_table.egg-info/PKG-INFO
+[6.224s] writing dependency_links to ../../../../../build/clean_the_table/clean_the_table.egg-info/dependency_links.txt
+[6.224s] writing entry points to ../../../../../build/clean_the_table/clean_the_table.egg-info/entry_points.txt
+[6.224s] writing requirements to ../../../../../build/clean_the_table/clean_the_table.egg-info/requires.txt
+[6.224s] writing top-level names to ../../../../../build/clean_the_table/clean_the_table.egg-info/top_level.txt
+[6.228s] reading manifest file '../../../../../build/clean_the_table/clean_the_table.egg-info/SOURCES.txt'
+[6.233s] adding license file 'LICENSE'
+[6.235s] writing manifest file '../../../../../build/clean_the_table/clean_the_table.egg-info/SOURCES.txt'
+[6.235s] running build
+[6.236s] running build_py
+[6.236s] creating /root/ros2_ws/build/clean_the_table/build
+[6.237s] creating /root/ros2_ws/build/clean_the_table/build/lib
+[6.237s] creating /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+[6.237s] copying clean_the_table/scene_analysis.py -> /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+[6.238s] copying clean_the_table/drive_to_table.py -> /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+[6.238s] copying clean_the_table/__init__.py -> /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+[6.238s] running install
+[6.239s] running install_lib
+[6.242s] creating /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+[6.244s] copying /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table/scene_analysis.py -> /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+[6.244s] copying /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table/drive_to_table.py -> /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+[6.244s] copying /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table/__init__.py -> /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+[6.245s] byte-compiling /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table/scene_analysis.py to scene_analysis.cpython-310.pyc
+[6.270s] byte-compiling /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table/drive_to_table.py to drive_to_table.cpython-310.pyc
+[6.273s] byte-compiling /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table/__init__.py to __init__.cpython-310.pyc
+[6.273s] running install_data
+[6.273s] copying resource/clean_the_table -> /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages
+[6.285s] copying package.xml -> /root/ros2_ws/install/clean_the_table/share/clean_the_table
+[6.291s] running install_egg_info
+[6.293s] Copying ../../../../../build/clean_the_table/clean_the_table.egg-info to /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table-0.0.0-py3.10.egg-info
+[6.296s] running install_scripts
+[6.421s] Installing drive_to_table script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+[6.425s] Installing scene_analysis script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+[6.425s] writing list of installed files to '/root/ros2_ws/build/clean_the_table/install.log'
+[8.737s] Invoked command in '/root/ros2_ws/src/25ws_nb-246830/stage_6/final_project/clean_the_table' returned '0': PYTHONPATH=/root/ros2_ws/build/clean_the_table/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/clean_the_table build --build-base /root/ros2_ws/build/clean_the_table/build install --record /root/ros2_ws/build/clean_the_table/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,1 @@
+/root/ros2_ws/build/moveit_wrapper_interfaces/rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_col_obj_s.c

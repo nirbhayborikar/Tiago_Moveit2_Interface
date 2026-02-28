@@ -1,0 +1,9 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/25ws_nb-246830/stage_4/custom_interfaces:msg/DriveToWallT.msg",
+    "/root/ros2_ws/src/25ws_nb-246830/stage_4/custom_interfaces:msg/ReachedWallT.msg",
+    "/root/ros2_ws/src/25ws_nb-246830/stage_4/custom_interfaces:srv/DriveToWallS.srv",
+    "/root/ros2_ws/src/25ws_nb-246830/stage_4/custom_interfaces:action/DriveToWallA.action"
+  ]
+}

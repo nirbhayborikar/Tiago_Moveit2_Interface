@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../../build/tf_test/tf_test.egg-info
+writing ../../../../build/tf_test/tf_test.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/tf_test/tf_test.egg-info/dependency_links.txt
+writing entry points to ../../../../build/tf_test/tf_test.egg-info/entry_points.txt
+writing requirements to ../../../../build/tf_test/tf_test.egg-info/requires.txt
+writing top-level names to ../../../../build/tf_test/tf_test.egg-info/top_level.txt
+writing manifest file '../../../../build/tf_test/tf_test.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/tf_test/tf_test.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/tf_test/tf_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/tf_test/build
+creating /root/ros2_ws/build/tf_test/build/lib
+creating /root/ros2_ws/build/tf_test/build/lib/tf_test
+copying tf_test/tf_test.py -> /root/ros2_ws/build/tf_test/build/lib/tf_test
+copying tf_test/__init__.py -> /root/ros2_ws/build/tf_test/build/lib/tf_test
+running install
+running install_lib
+creating /root/ros2_ws/install/tf_test/lib/python3.10/site-packages/tf_test
+copying /root/ros2_ws/build/tf_test/build/lib/tf_test/tf_test.py -> /root/ros2_ws/install/tf_test/lib/python3.10/site-packages/tf_test
+copying /root/ros2_ws/build/tf_test/build/lib/tf_test/__init__.py -> /root/ros2_ws/install/tf_test/lib/python3.10/site-packages/tf_test
+byte-compiling /root/ros2_ws/install/tf_test/lib/python3.10/site-packages/tf_test/tf_test.py to tf_test.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/tf_test/lib/python3.10/site-packages/tf_test/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/tf_test/share/ament_index
+creating /root/ros2_ws/install/tf_test/share/ament_index/resource_index
+creating /root/ros2_ws/install/tf_test/share/ament_index/resource_index/packages
+copying resource/tf_test -> /root/ros2_ws/install/tf_test/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/tf_test/share/tf_test
+running install_egg_info
+Copying ../../../../build/tf_test/tf_test.egg-info to /root/ros2_ws/install/tf_test/lib/python3.10/site-packages/tf_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tf_test script to /root/ros2_ws/install/tf_test/lib/tf_test
+writing list of installed files to '/root/ros2_ws/build/tf_test/install.log'

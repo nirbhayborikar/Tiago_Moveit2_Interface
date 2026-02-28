@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c0b4ef3a1be940a4015b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wrapper_collision_marker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-74997f0df1aca62b8a54.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wrapper_collision_marker_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wrapper_collision_marker_uninstall-7c1fc0c8f1629c516b43.json",
+					"name" : "wrapper_collision_marker_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wrapper_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wrapper_marker-0dbd3d0d832046d8daf5.json",
+					"name" : "wrapper_marker",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/wrapper_collision_marker",
+		"source" : "/root/ros2_ws/src/25ws_nb-246830/stage_6/wrapper_collision_marker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

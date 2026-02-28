@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../rosidl_generator_py/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_c.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/msg/__init__.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/msg/_waypoint.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/msg/_waypoint_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/msg/_waypoint_sequence.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/msg/_waypoint_sequence_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_add_col_obj.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_add_col_obj_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_attach_obj.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_attach_obj_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_dettach_obj.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_dettach_obj_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_execute_plans.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_execute_plans_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_attached_objs.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_attached_objs_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_col_obj.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_col_obj_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_named_target.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_named_target_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_named_targets.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_named_targets_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_goto_named_target.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_goto_named_target_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_move_torso.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_move_torso_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_plan.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_plan_joints.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_plan_joints_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_plan_s.c"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_remove_col_obj.py"
+  "../rosidl_generator_py/moveit_wrapper_interfaces/srv/_remove_col_obj_s.c"
+  "CMakeFiles/moveit_wrapper_interfaces__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/moveit_wrapper_interfaces__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

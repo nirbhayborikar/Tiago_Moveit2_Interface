@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../../build/move_head/move_head.egg-info
+writing ../../../../build/move_head/move_head.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/move_head/move_head.egg-info/dependency_links.txt
+writing entry points to ../../../../build/move_head/move_head.egg-info/entry_points.txt
+writing requirements to ../../../../build/move_head/move_head.egg-info/requires.txt
+writing top-level names to ../../../../build/move_head/move_head.egg-info/top_level.txt
+writing manifest file '../../../../build/move_head/move_head.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/move_head/move_head.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/move_head/move_head.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/move_head/build
+creating /root/ros2_ws/build/move_head/build/lib
+creating /root/ros2_ws/build/move_head/build/lib/move_head
+copying move_head/move_head.py -> /root/ros2_ws/build/move_head/build/lib/move_head
+copying move_head/move_head_action_server.py -> /root/ros2_ws/build/move_head/build/lib/move_head
+copying move_head/__init__.py -> /root/ros2_ws/build/move_head/build/lib/move_head
+running install
+running install_lib
+creating /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+copying /root/ros2_ws/build/move_head/build/lib/move_head/move_head.py -> /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+copying /root/ros2_ws/build/move_head/build/lib/move_head/move_head_action_server.py -> /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+copying /root/ros2_ws/build/move_head/build/lib/move_head/__init__.py -> /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+byte-compiling /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head/move_head.py to move_head.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head/move_head_action_server.py to move_head_action_server.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/move_head/share/ament_index
+creating /root/ros2_ws/install/move_head/share/ament_index/resource_index
+creating /root/ros2_ws/install/move_head/share/ament_index/resource_index/packages
+copying resource/move_head -> /root/ros2_ws/install/move_head/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/move_head/share/move_head
+creating /root/ros2_ws/install/move_head/share/move_head/action
+copying action/MoveHead.action -> /root/ros2_ws/install/move_head/share/move_head/action
+running install_egg_info
+Copying ../../../../build/move_head/move_head.egg-info to /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move_head script to /root/ros2_ws/install/move_head/lib/move_head
+Installing move_head_action_server script to /root/ros2_ws/install/move_head/lib/move_head
+writing list of installed files to '/root/ros2_ws/build/move_head/install.log'

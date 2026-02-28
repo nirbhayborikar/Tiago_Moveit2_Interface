@@ -1,0 +1,1 @@
+/root/ros2_ws/build/moveit_wrapper_interfaces/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/dettach_obj__functions.h

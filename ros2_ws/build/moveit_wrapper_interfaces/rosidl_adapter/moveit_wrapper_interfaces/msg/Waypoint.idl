@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_wrapper_interfaces/msg/Waypoint.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "moveit_msgs/msg/Constraints.idl"
+
+module moveit_wrapper_interfaces {
+  module msg {
+    struct Waypoint {
+      @verbatim (language="comment", text=
+        "pose of waypoint, used when named_target is empty")
+      geometry_msgs::msg::PoseStamped pose;
+
+      @verbatim (language="comment", text=
+        "robot states available as targets, both either remembered states or default states from srdf.")
+      string named_target;
+
+      @verbatim (language="comment", text=
+        " Linear movement" "\n"
+        "true to move the arm on a straigt line to the pose")
+      boolean linear_movement;
+
+      @verbatim (language="comment", text=
+        "step size in to generate linear movement (default 0.01)")
+      @unit (value="m")
+      float linear_eef_step;
+
+      @verbatim (language="comment", text=
+        "The jump_threshold specifies the maximum distance in configuration space between consecutive points in the resulting path.")
+      float linear_jump_thresh;
+
+      @verbatim (language="comment", text=
+        "Just don't set it to true if you don't know what you are doing :)")
+      boolean linear_disable_collisions;
+
+      @verbatim (language="comment", text=
+        "list of constraints for this movement")
+      moveit_msgs::msg::Constraints path_constraints;
+    };
+  };
+};

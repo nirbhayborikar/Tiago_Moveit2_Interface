@@ -1,0 +1,6 @@
+
+
+# Response
+string[] names
+bool success
+string message

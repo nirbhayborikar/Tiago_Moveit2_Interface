@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/DriveToWallA.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal (request)")
+    struct DriveToWallA_Goal {
+      double linear_x;
+
+      double min_distance;
+    };
+    @verbatim (language="comment", text=
+      "Result (response)")
+    struct DriveToWallA_Result {
+      string message;
+
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct DriveToWallA_Feedback {
+      double current_distance;
+    };
+  };
+};

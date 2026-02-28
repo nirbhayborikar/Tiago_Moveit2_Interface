@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/moveit_wrapper_interfaces': /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_wrapper_interfaces
+Invoked command in '/root/ros2_ws/build/moveit_wrapper_interfaces' returned '1': /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_wrapper_interfaces

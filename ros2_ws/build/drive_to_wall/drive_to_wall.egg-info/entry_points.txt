@@ -1,0 +1,8 @@
+[console_scripts]
+drive_to_wall_action = drive_to_wall.drive_to_wall_action:main
+drive_to_wall_action_client = drive_to_wall.drive_to_wall_action_client:main
+drive_to_wall_service = drive_to_wall.drive_to_wall_service:main
+drive_to_wall_service_client = drive_to_wall.drive_to_wall_service_client:main
+drive_to_wall_topic = drive_to_wall.drive_to_wall_topic:main
+drive_to_wall_topic_client = drive_to_wall.drive_to_wall_topic_client:main
+

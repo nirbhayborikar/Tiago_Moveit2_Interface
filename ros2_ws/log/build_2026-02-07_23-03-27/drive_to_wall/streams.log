@@ -1,0 +1,58 @@
+[1.971s] Invoking command in '/root/ros2_ws/src/25ws_nb-246830/stage_4/drive_to_wall': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/drive_to_wall/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages:/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/drive_to_wall build --build-base /root/ros2_ws/build/drive_to_wall/build install --record /root/ros2_ws/build/drive_to_wall/install.log --single-version-externally-managed install_data
+[3.119s] running egg_info
+[3.120s] creating ../../../../build/drive_to_wall/drive_to_wall.egg-info
+[3.122s] writing ../../../../build/drive_to_wall/drive_to_wall.egg-info/PKG-INFO
+[3.128s] writing dependency_links to ../../../../build/drive_to_wall/drive_to_wall.egg-info/dependency_links.txt
+[3.128s] writing entry points to ../../../../build/drive_to_wall/drive_to_wall.egg-info/entry_points.txt
+[3.131s] writing requirements to ../../../../build/drive_to_wall/drive_to_wall.egg-info/requires.txt
+[3.132s] writing top-level names to ../../../../build/drive_to_wall/drive_to_wall.egg-info/top_level.txt
+[3.135s] writing manifest file '../../../../build/drive_to_wall/drive_to_wall.egg-info/SOURCES.txt'
+[3.148s] reading manifest file '../../../../build/drive_to_wall/drive_to_wall.egg-info/SOURCES.txt'
+[3.148s] adding license file 'LICENSE'
+[3.153s] writing manifest file '../../../../build/drive_to_wall/drive_to_wall.egg-info/SOURCES.txt'
+[3.153s] running build
+[3.153s] running build_py
+[3.157s] creating /root/ros2_ws/build/drive_to_wall/build
+[3.157s] creating /root/ros2_ws/build/drive_to_wall/build/lib
+[3.157s] creating /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.157s] copying drive_to_wall/drive_to_wall_action.py -> /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.157s] copying drive_to_wall/drive_to_wall_topic.py -> /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.158s] copying drive_to_wall/drive_to_wall_topic_client.py -> /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.158s] copying drive_to_wall/drive_to_wall_service_client.py -> /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.158s] copying drive_to_wall/drive_to_wall_service.py -> /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.158s] copying drive_to_wall/drive_to_wall_action_client.py -> /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.158s] copying drive_to_wall/__init__.py -> /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall
+[3.163s] running install
+[3.163s] running install_lib
+[3.163s] creating /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.170s] copying /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall/drive_to_wall_action.py -> /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.170s] copying /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall/drive_to_wall_topic.py -> /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.171s] copying /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall/drive_to_wall_topic_client.py -> /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.171s] copying /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall/drive_to_wall_service_client.py -> /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.171s] copying /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall/drive_to_wall_service.py -> /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.171s] copying /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall/drive_to_wall_action_client.py -> /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.171s] copying /root/ros2_ws/build/drive_to_wall/build/lib/drive_to_wall/__init__.py -> /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall
+[3.172s] byte-compiling /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall/drive_to_wall_action.py to drive_to_wall_action.cpython-310.pyc
+[3.172s] byte-compiling /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall/drive_to_wall_topic.py to drive_to_wall_topic.cpython-310.pyc
+[3.180s] byte-compiling /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall/drive_to_wall_topic_client.py to drive_to_wall_topic_client.cpython-310.pyc
+[3.180s] byte-compiling /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall/drive_to_wall_service_client.py to drive_to_wall_service_client.cpython-310.pyc
+[3.184s] byte-compiling /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall/drive_to_wall_service.py to drive_to_wall_service.cpython-310.pyc
+[3.184s] byte-compiling /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall/drive_to_wall_action_client.py to drive_to_wall_action_client.cpython-310.pyc
+[3.191s] byte-compiling /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall/__init__.py to __init__.cpython-310.pyc
+[3.191s] running install_data
+[3.192s] creating /root/ros2_ws/install/drive_to_wall/share/ament_index
+[3.192s] creating /root/ros2_ws/install/drive_to_wall/share/ament_index/resource_index
+[3.192s] creating /root/ros2_ws/install/drive_to_wall/share/ament_index/resource_index/packages
+[3.192s] copying resource/drive_to_wall -> /root/ros2_ws/install/drive_to_wall/share/ament_index/resource_index/packages
+[3.193s] copying package.xml -> /root/ros2_ws/install/drive_to_wall/share/drive_to_wall
+[3.193s] running install_egg_info
+[3.203s] Copying ../../../../build/drive_to_wall/drive_to_wall.egg-info to /root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages/drive_to_wall-0.0.0-py3.10.egg-info
+[3.211s] running install_scripts
+[3.273s] Installing drive_to_wall_action script to /root/ros2_ws/install/drive_to_wall/lib/drive_to_wall
+[3.274s] Installing drive_to_wall_action_client script to /root/ros2_ws/install/drive_to_wall/lib/drive_to_wall
+[3.274s] Installing drive_to_wall_service script to /root/ros2_ws/install/drive_to_wall/lib/drive_to_wall
+[3.275s] Installing drive_to_wall_service_client script to /root/ros2_ws/install/drive_to_wall/lib/drive_to_wall
+[3.276s] Installing drive_to_wall_topic script to /root/ros2_ws/install/drive_to_wall/lib/drive_to_wall
+[3.276s] Installing drive_to_wall_topic_client script to /root/ros2_ws/install/drive_to_wall/lib/drive_to_wall
+[3.279s] writing list of installed files to '/root/ros2_ws/build/drive_to_wall/install.log'
+[3.335s] Invoked command in '/root/ros2_ws/src/25ws_nb-246830/stage_4/drive_to_wall' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/custom_interfaces LD_LIBRARY_PATH=/root/ros2_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/build/drive_to_wall/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/drive_to_wall/lib/python3.10/site-packages:/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/drive_to_wall build --build-base /root/ros2_ws/build/drive_to_wall/build install --record /root/ros2_ws/build/drive_to_wall/install.log --single-version-externally-managed install_data

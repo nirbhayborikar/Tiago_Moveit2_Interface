@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f3bb82626cac35cc2f1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "moveit_wrapper_interfaces__py",
+					"jsonFile" : "directory-moveit_wrapper_interfaces__py-6fb188d5ec4b63c0b720.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ros2_ws/build/moveit_wrapper_interfaces/moveit_wrapper_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "moveit_wrapper_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_moveit_wrapper_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_moveit_wrapper_interfaces_egg-ebd40502dc4292500261.json",
+					"name" : "ament_cmake_python_build_moveit_wrapper_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_moveit_wrapper_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_moveit_wrapper_interfaces-1fb5dfda96b22700eb87.json",
+					"name" : "ament_cmake_python_symlink_moveit_wrapper_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces-7fe91d926f3c48391513.json",
+					"name" : "moveit_wrapper_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__cpp-368ac881dc7e5e94c635.json",
+					"name" : "moveit_wrapper_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "moveit_wrapper_interfaces__py::@6fc2e603dab9ce73ab74",
+					"jsonFile" : "target-moveit_wrapper_interfaces__py-6565a470f31e78110403.json",
+					"name" : "moveit_wrapper_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_generator_c-21720591310a9ea64a40.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_generator_py-9a627c0b7347d0ec49d2.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_c-1e74b56b93d4eaa4205f.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_c__pyext-b15abd9e3f1653495bf2.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_cpp-a574599e12c9db1fe3c0.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c-b81efc64f4946cdc97ea.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c__pyext-2265fcd07ed0f013847f.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp-d07cc2ad8025e87a3a62.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_introspection_c-bc86e09391ce1255858f.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_introspection_c__pyext-148462a900f7d441338c.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp-1ed47370f02a86eb039f.json",
+					"name" : "moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "moveit_wrapper_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-moveit_wrapper_interfaces_uninstall-4ebae9d3bbbd4b1efea4.json",
+					"name" : "moveit_wrapper_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-81a5849b73951000bf3e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ros2_ws/build/moveit_wrapper_interfaces",
+		"source" : "/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

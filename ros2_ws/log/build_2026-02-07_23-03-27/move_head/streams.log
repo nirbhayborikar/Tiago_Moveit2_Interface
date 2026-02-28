@@ -1,0 +1,44 @@
+[3.482s] Invoking command in '/root/ros2_ws/src/25ws_nb-246830/stage_5/move_head': PYTHONPATH=/root/ros2_ws/build/move_head/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/move_head/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/move_head build --build-base /root/ros2_ws/build/move_head/build install --record /root/ros2_ws/build/move_head/install.log --single-version-externally-managed install_data
+[5.133s] running egg_info
+[5.133s] creating ../../../../build/move_head/move_head.egg-info
+[5.133s] writing ../../../../build/move_head/move_head.egg-info/PKG-INFO
+[5.133s] writing dependency_links to ../../../../build/move_head/move_head.egg-info/dependency_links.txt
+[5.134s] writing entry points to ../../../../build/move_head/move_head.egg-info/entry_points.txt
+[5.134s] writing requirements to ../../../../build/move_head/move_head.egg-info/requires.txt
+[5.134s] writing top-level names to ../../../../build/move_head/move_head.egg-info/top_level.txt
+[5.134s] writing manifest file '../../../../build/move_head/move_head.egg-info/SOURCES.txt'
+[5.134s] reading manifest file '../../../../build/move_head/move_head.egg-info/SOURCES.txt'
+[5.134s] adding license file 'LICENSE'
+[5.134s] writing manifest file '../../../../build/move_head/move_head.egg-info/SOURCES.txt'
+[5.135s] running build
+[5.135s] running build_py
+[5.135s] creating /root/ros2_ws/build/move_head/build
+[5.135s] creating /root/ros2_ws/build/move_head/build/lib
+[5.135s] creating /root/ros2_ws/build/move_head/build/lib/move_head
+[5.135s] copying move_head/move_head.py -> /root/ros2_ws/build/move_head/build/lib/move_head
+[5.136s] copying move_head/move_head_action_server.py -> /root/ros2_ws/build/move_head/build/lib/move_head
+[5.136s] copying move_head/__init__.py -> /root/ros2_ws/build/move_head/build/lib/move_head
+[5.136s] running install
+[5.136s] running install_lib
+[5.136s] creating /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+[5.136s] copying /root/ros2_ws/build/move_head/build/lib/move_head/move_head.py -> /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+[5.144s] copying /root/ros2_ws/build/move_head/build/lib/move_head/move_head_action_server.py -> /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+[5.148s] copying /root/ros2_ws/build/move_head/build/lib/move_head/__init__.py -> /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head
+[5.148s] byte-compiling /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head/move_head.py to move_head.cpython-310.pyc
+[5.152s] byte-compiling /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head/move_head_action_server.py to move_head_action_server.cpython-310.pyc
+[5.153s] byte-compiling /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head/__init__.py to __init__.cpython-310.pyc
+[5.153s] running install_data
+[5.153s] creating /root/ros2_ws/install/move_head/share/ament_index
+[5.153s] creating /root/ros2_ws/install/move_head/share/ament_index/resource_index
+[5.153s] creating /root/ros2_ws/install/move_head/share/ament_index/resource_index/packages
+[5.154s] copying resource/move_head -> /root/ros2_ws/install/move_head/share/ament_index/resource_index/packages
+[5.154s] copying package.xml -> /root/ros2_ws/install/move_head/share/move_head
+[5.154s] creating /root/ros2_ws/install/move_head/share/move_head/action
+[5.154s] copying action/MoveHead.action -> /root/ros2_ws/install/move_head/share/move_head/action
+[5.154s] running install_egg_info
+[5.154s] Copying ../../../../build/move_head/move_head.egg-info to /root/ros2_ws/install/move_head/lib/python3.10/site-packages/move_head-0.0.0-py3.10.egg-info
+[5.159s] running install_scripts
+[5.159s] Installing move_head script to /root/ros2_ws/install/move_head/lib/move_head
+[5.159s] Installing move_head_action_server script to /root/ros2_ws/install/move_head/lib/move_head
+[5.160s] writing list of installed files to '/root/ros2_ws/build/move_head/install.log'
+[5.160s] Invoked command in '/root/ros2_ws/src/25ws_nb-246830/stage_5/move_head' returned '0': PYTHONPATH=/root/ros2_ws/build/move_head/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/move_head/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/move_head build --build-base /root/ros2_ws/build/move_head/build install --record /root/ros2_ws/build/move_head/install.log --single-version-externally-managed install_data

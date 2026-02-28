@@ -1,0 +1,56 @@
+running egg_info
+creating ../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info
+writing ../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/dependency_links.txt
+writing entry points to ../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/entry_points.txt
+writing requirements to ../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/requires.txt
+writing top-level names to ../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/top_level.txt
+writing manifest file '../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/moveit_wrapper_test/build
+creating /root/ros2_ws/build/moveit_wrapper_test/build/lib
+creating /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/test_pick_place.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/move_to_table_2.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/test_scene_analysis.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/test_collision_in_position.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/model_test.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/test_for_collsion.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/plan_never_fail.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+copying moveit_wrapper_test/__init__.py -> /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test
+running install
+running install_lib
+creating /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/test_pick_place.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/move_to_table_2.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/test_scene_analysis.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/test_collision_in_position.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/model_test.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/test_for_collsion.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/plan_never_fail.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+copying /root/ros2_ws/build/moveit_wrapper_test/build/lib/moveit_wrapper_test/__init__.py -> /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/test_pick_place.py to test_pick_place.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/move_to_table_2.py to move_to_table_2.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/test_scene_analysis.py to test_scene_analysis.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/test_collision_in_position.py to test_collision_in_position.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/model_test.py to model_test.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/test_for_collsion.py to test_for_collsion.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/plan_never_fail.py to plan_never_fail.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/install/moveit_wrapper_test/share/ament_index
+creating /root/ros2_ws/install/moveit_wrapper_test/share/ament_index/resource_index
+creating /root/ros2_ws/install/moveit_wrapper_test/share/ament_index/resource_index/packages
+copying resource/moveit_wrapper_test -> /root/ros2_ws/install/moveit_wrapper_test/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/moveit_wrapper_test/share/moveit_wrapper_test
+running install_egg_info
+Copying ../../../../build/moveit_wrapper_test/moveit_wrapper_test.egg-info to /root/ros2_ws/install/moveit_wrapper_test/lib/python3.10/site-packages/moveit_wrapper_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_collision_in_position script to /root/ros2_ws/install/moveit_wrapper_test/lib/moveit_wrapper_test
+Installing test_collision_objects script to /root/ros2_ws/install/moveit_wrapper_test/lib/moveit_wrapper_test
+Installing test_pick_place script to /root/ros2_ws/install/moveit_wrapper_test/lib/moveit_wrapper_test
+writing list of installed files to '/root/ros2_ws/build/moveit_wrapper_test/install.log'

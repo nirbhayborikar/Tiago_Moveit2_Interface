@@ -1,0 +1,1 @@
+/root/ros2_ws/build/moveit_wrapper_interfaces/rosidl_cmake/srv/RemoveColObj_Response.msg

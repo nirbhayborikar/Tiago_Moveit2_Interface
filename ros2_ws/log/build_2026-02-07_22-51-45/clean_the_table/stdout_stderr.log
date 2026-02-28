@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating clean_the_table.egg-info
+writing clean_the_table.egg-info/PKG-INFO
+writing dependency_links to clean_the_table.egg-info/dependency_links.txt
+writing entry points to clean_the_table.egg-info/entry_points.txt
+writing requirements to clean_the_table.egg-info/requires.txt
+writing top-level names to clean_the_table.egg-info/top_level.txt
+writing manifest file 'clean_the_table.egg-info/SOURCES.txt'
+reading manifest file 'clean_the_table.egg-info/SOURCES.txt'
+writing manifest file 'clean_the_table.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean-the-table.egg-link (link to .)
+Installing drive_to_table script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+Installing scene_analysis script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+
+Installed /root/ros2_ws/build/clean_the_table
+running symlink_data
+creating /root/ros2_ws/install/clean_the_table/share/ament_index
+creating /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index
+creating /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/build/clean_the_table/resource/clean_the_table -> /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/build/clean_the_table/package.xml -> /root/ros2_ws/install/clean_the_table/share/clean_the_table

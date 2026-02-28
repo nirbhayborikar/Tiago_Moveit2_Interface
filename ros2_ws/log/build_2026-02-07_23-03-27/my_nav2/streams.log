@@ -1,0 +1,38 @@
+[3.382s] Invoking command in '/root/ros2_ws/src/25ws_nb-246830/stage_3/my_nav2': PYTHONPATH=/root/ros2_ws/build/my_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_nav2 build --build-base /root/ros2_ws/build/my_nav2/build install --record /root/ros2_ws/build/my_nav2/install.log --single-version-externally-managed install_data
+[4.863s] running egg_info
+[4.865s] creating ../../../../build/my_nav2/my_nav2.egg-info
+[4.865s] writing ../../../../build/my_nav2/my_nav2.egg-info/PKG-INFO
+[4.866s] writing dependency_links to ../../../../build/my_nav2/my_nav2.egg-info/dependency_links.txt
+[4.866s] writing entry points to ../../../../build/my_nav2/my_nav2.egg-info/entry_points.txt
+[4.866s] writing requirements to ../../../../build/my_nav2/my_nav2.egg-info/requires.txt
+[4.866s] writing top-level names to ../../../../build/my_nav2/my_nav2.egg-info/top_level.txt
+[4.867s] writing manifest file '../../../../build/my_nav2/my_nav2.egg-info/SOURCES.txt'
+[4.871s] reading manifest file '../../../../build/my_nav2/my_nav2.egg-info/SOURCES.txt'
+[4.871s] adding license file 'LICENSE'
+[4.872s] writing manifest file '../../../../build/my_nav2/my_nav2.egg-info/SOURCES.txt'
+[4.873s] running build
+[4.873s] running build_py
+[4.873s] creating /root/ros2_ws/build/my_nav2/build
+[4.875s] creating /root/ros2_ws/build/my_nav2/build/lib
+[4.876s] creating /root/ros2_ws/build/my_nav2/build/lib/my_nav2
+[4.876s] copying my_nav2/goal_pub.py -> /root/ros2_ws/build/my_nav2/build/lib/my_nav2
+[4.877s] copying my_nav2/__init__.py -> /root/ros2_ws/build/my_nav2/build/lib/my_nav2
+[4.877s] running install
+[4.884s] running install_lib
+[4.884s] creating /root/ros2_ws/install/my_nav2/lib/python3.10/site-packages/my_nav2
+[4.884s] copying /root/ros2_ws/build/my_nav2/build/lib/my_nav2/goal_pub.py -> /root/ros2_ws/install/my_nav2/lib/python3.10/site-packages/my_nav2
+[4.884s] copying /root/ros2_ws/build/my_nav2/build/lib/my_nav2/__init__.py -> /root/ros2_ws/install/my_nav2/lib/python3.10/site-packages/my_nav2
+[4.885s] byte-compiling /root/ros2_ws/install/my_nav2/lib/python3.10/site-packages/my_nav2/goal_pub.py to goal_pub.cpython-310.pyc
+[4.885s] byte-compiling /root/ros2_ws/install/my_nav2/lib/python3.10/site-packages/my_nav2/__init__.py to __init__.cpython-310.pyc
+[4.889s] running install_data
+[4.890s] creating /root/ros2_ws/install/my_nav2/share/ament_index
+[4.890s] creating /root/ros2_ws/install/my_nav2/share/ament_index/resource_index
+[4.890s] creating /root/ros2_ws/install/my_nav2/share/ament_index/resource_index/packages
+[4.890s] copying resource/my_nav2 -> /root/ros2_ws/install/my_nav2/share/ament_index/resource_index/packages
+[4.890s] copying package.xml -> /root/ros2_ws/install/my_nav2/share/my_nav2
+[4.890s] running install_egg_info
+[4.891s] Copying ../../../../build/my_nav2/my_nav2.egg-info to /root/ros2_ws/install/my_nav2/lib/python3.10/site-packages/my_nav2-0.0.0-py3.10.egg-info
+[4.891s] running install_scripts
+[4.970s] Installing my_node script to /root/ros2_ws/install/my_nav2/lib/my_nav2
+[4.971s] writing list of installed files to '/root/ros2_ws/build/my_nav2/install.log'
+[5.327s] Invoked command in '/root/ros2_ws/src/25ws_nb-246830/stage_3/my_nav2' returned '0': PYTHONPATH=/root/ros2_ws/build/my_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/my_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_nav2 build --build-base /root/ros2_ws/build/my_nav2/build install --record /root/ros2_ws/build/my_nav2/install.log --single-version-externally-managed install_data

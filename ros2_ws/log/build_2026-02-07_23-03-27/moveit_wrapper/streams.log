@@ -1,0 +1,99 @@
+[1.690s] Invoking command in '/root/ros2_ws/build/moveit_wrapper': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_wrapper
+[2.036s] -- The C compiler identification is GNU 11.4.0
+[2.339s] -- The CXX compiler identification is GNU 11.4.0
+[2.382s] -- Detecting C compiler ABI info
+[2.698s] -- Detecting C compiler ABI info - done
+[2.765s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.765s] -- Detecting C compile features
+[2.766s] -- Detecting C compile features - done
+[2.785s] -- Detecting CXX compiler ABI info
+[3.139s] -- Detecting CXX compiler ABI info - done
+[3.310s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.316s] -- Detecting CXX compile features
+[3.318s] -- Detecting CXX compile features - done
+[3.344s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.025s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.423s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[4.687s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.710s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.750s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.935s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.239s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.269s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.357s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.384s] -- Looking for pthread.h
+[5.528s] -- Looking for pthread.h - found
+[5.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.767s] -- Found Threads: TRUE  
+[5.943s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.049s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.311s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.345s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.348s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.348s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.355s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[6.429s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[6.730s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.784s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.808s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.853s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.978s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.176s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[7.242s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[7.344s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[7.441s] -- moveit_cpp not found (normal for Jazzy), using moveit_ros_planning instead
+[7.445s] -- Found moveit_wrapper_interfaces: 1.1.2 (/root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake)
+[7.648s] -- Configuring done
+[7.711s] -- Generating done
+[7.722s] -- Build files have been written to: /root/ros2_ws/build/moveit_wrapper
+[7.745s] Invoked command in '/root/ros2_ws/build/moveit_wrapper' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_wrapper
+[7.749s] Invoking command in '/root/ros2_ws/build/moveit_wrapper': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/moveit_wrapper -- -j8 -l8
+[7.824s] [  6%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/attach_object.cpp.o[0m
+[7.825s] [ 13%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/detach_object.cpp.o[0m
+[7.825s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/moveit_wrapper.cpp.o[0m
+[7.825s] [ 26%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/add_collision_object.cpp.o[0m
+[7.830s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/execute_plans.cpp.o[0m
+[7.831s] [ 40%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/get_collision_objects.cpp.o[0m
+[7.844s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/get_attached_objects.cpp.o[0m
+[7.849s] [ 53%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/get_named_target.cpp.o[0m
+[84.049s] [ 60%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/remove_collision_object.cpp.o[0m
+[95.444s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/plan_joints.cpp.o[0m
+[95.444s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/move_torso.cpp.o[0m
+[95.444s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/plan.cpp.o[0m
+[127.303s] [ 86%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/goto_named_target.cpp.o[0m
+[127.303s] [ 93%] [32mBuilding CXX object CMakeFiles/moveit_wrapper.dir/src/services/get_named_targets.cpp.o[0m
+[144.290s] [100%] [32m[1mLinking CXX shared library libmoveit_wrapper.so[0m
+[145.599s] [100%] Built target moveit_wrapper
+[145.615s] Invoked command in '/root/ros2_ws/build/moveit_wrapper' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ros2_ws/build/moveit_wrapper -- -j8 -l8
+[145.619s] Invoking command in '/root/ros2_ws/build/moveit_wrapper': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/moveit_wrapper
+[145.628s] -- Install configuration: ""
+[145.629s] -- Installing: /root/ros2_ws/install/moveit_wrapper/lib/libmoveit_wrapper.so
+[145.637s] -- Set runtime path of "/root/ros2_ws/install/moveit_wrapper/lib/libmoveit_wrapper.so" to ""
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/include/
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/include//moveit_wrapper
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/include//moveit_wrapper/moveit_wrapper.hpp
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/include//moveit_wrapper/marker_utils.hpp
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/launch
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/launch/moveit_wrapper.launch.py
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/params
+[145.637s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/params/tiago.yaml
+[145.638s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/params/moveit_wrapper.yaml
+[145.639s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/ament_index/resource_index/package_run_dependencies/moveit_wrapper
+[145.639s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/ament_index/resource_index/parent_prefix_path/moveit_wrapper
+[145.642s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/environment/ament_prefix_path.sh
+[145.642s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/environment/ament_prefix_path.dsv
+[145.643s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/environment/path.sh
+[145.643s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/environment/path.dsv
+[145.643s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.bash
+[145.644s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.sh
+[145.644s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.zsh
+[145.644s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.dsv
+[145.644s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/package.dsv
+[145.646s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/ament_index/resource_index/packages/moveit_wrapper
+[145.646s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/ament_index/resource_index/rclcpp_components/moveit_wrapper
+[145.647s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapperConfig.cmake
+[145.647s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapperConfig-version.cmake
+[145.647s] -- Installing: /root/ros2_ws/install/moveit_wrapper/share/moveit_wrapper/package.xml
+[145.649s] Invoked command in '/root/ros2_ws/build/moveit_wrapper' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_wrapper_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ros2_ws/build/moveit_wrapper

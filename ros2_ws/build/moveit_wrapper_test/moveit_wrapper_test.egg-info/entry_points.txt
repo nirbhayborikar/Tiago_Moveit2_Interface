@@ -1,0 +1,5 @@
+[console_scripts]
+test_collision_in_position = moveit_wrapper_test.test_collision_in_position:main
+test_collision_objects = moveit_wrapper_test.test_collision_objects:main
+test_pick_place = moveit_wrapper_test.test_pick_place:main
+

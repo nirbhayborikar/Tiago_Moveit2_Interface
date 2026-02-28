@@ -1,0 +1,1 @@
+/root/ros2_ws/build/moveit_wrapper_interfaces/rosidl_generator_cpp/moveit_wrapper_interfaces/srv/get_attached_objs.hpp

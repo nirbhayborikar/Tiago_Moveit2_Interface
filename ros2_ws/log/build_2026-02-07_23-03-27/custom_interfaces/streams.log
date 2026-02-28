@@ -1,0 +1,353 @@
+[0.035s] Invoking command in '/root/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/stage_4/custom_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_interfaces
+[1.675s] -- The C compiler identification is GNU 11.4.0
+[1.675s] -- The CXX compiler identification is GNU 11.4.0
+[1.675s] -- Detecting C compiler ABI info
+[1.675s] -- Detecting C compiler ABI info - done
+[1.676s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.676s] -- Detecting C compile features
+[1.676s] -- Detecting C compile features - done
+[1.676s] -- Detecting CXX compiler ABI info
+[1.676s] -- Detecting CXX compiler ABI info - done
+[1.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.677s] -- Detecting CXX compile features
+[1.678s] -- Detecting CXX compile features - done
+[1.678s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.678s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.678s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.680s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.680s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.680s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.681s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.687s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.688s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.570s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.593s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.665s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.665s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.665s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.666s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.776s] -- Found PythonExtra: .so  
+[5.213s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.266s] -- Added test 'lint_cmake' to check CMake code style
+[5.268s] -- Added test 'xmllint' to check XML markup files
+[5.271s] -- Configuring done
+[5.379s] -- Generating done
+[5.413s] -- Build files have been written to: /root/ros2_ws/build/custom_interfaces
+[6.826s] Invoked command in '/root/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/stage_4/custom_interfaces -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/custom_interfaces
+[6.826s] Invoking command in '/root/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/custom_interfaces -- -j8 -l8
+[8.744s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.745s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.755s] [  3%] Built target ament_cmake_python_copy_custom_interfaces
+[8.756s] running egg_info
+[8.757s] creating custom_interfaces.egg-info
+[8.759s] writing custom_interfaces.egg-info/PKG-INFO
+[8.760s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[8.762s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[8.765s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[8.766s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[8.767s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[8.770s] [  3%] Built target ament_cmake_python_build_custom_interfaces_egg
+[10.196s] [  3%] Built target custom_interfaces__cpp
+[10.231s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.243s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.247s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.049s] [ 10%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/drive_to_wall_t__functions.c.o[0m
+[11.051s] [ 12%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/drive_to_wall_s__functions.c.o[0m
+[11.051s] [ 14%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/reached_wall_t__functions.c.o[0m
+[11.087s] [ 16%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/drive_to_wall_a__functions.c.o[0m
+[12.408s] [ 18%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[12.870s] [ 18%] Built target custom_interfaces__rosidl_generator_c
+[12.923s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.957s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[13.014s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.110s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/drive_to_wall_t__type_support.cpp.o[0m
+[13.111s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/reached_wall_t__type_support.cpp.o[0m
+[13.175s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/drive_to_wall_s__type_support.cpp.o[0m
+[13.973s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/drive_to_wall_a__type_support.cpp.o[0m
+[14.882s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/drive_to_wall_t__type_support.cpp.o[0m
+[14.882s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/drive_to_wall_s__type_support.cpp.o[0m
+[14.884s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/reached_wall_t__type_support.cpp.o[0m
+[15.266s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/drive_to_wall_t__type_support.cpp.o[0m
+[15.685s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/drive_to_wall_t__type_support_c.cpp.o[0m
+[16.021s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/drive_to_wall_t__type_support.cpp.o[0m
+[16.166s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/reached_wall_t__type_support.cpp.o[0m
+[16.222s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/reached_wall_t__type_support.cpp.o[0m
+[16.255s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/drive_to_wall_s__type_support.cpp.o[0m
+[16.378s] [ 49%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/drive_to_wall_t__type_support.c.o[0m
+[16.387s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/drive_to_wall_a__type_support.cpp.o[0m
+[16.638s] [ 52%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/reached_wall_t__type_support.c.o[0m
+[16.674s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/reached_wall_t__type_support_c.cpp.o[0m
+[16.679s] [ 56%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[16.831s] [ 58%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/drive_to_wall_s__type_support.c.o[0m
+[16.870s] [ 60%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/drive_to_wall_a__type_support.cpp.o[0m
+[16.937s] [ 60%] Built target custom_interfaces__rosidl_typesupport_c
+[16.981s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/drive_to_wall_s__type_support_c.cpp.o[0m
+[17.128s] [ 63%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/drive_to_wall_a__type_support.c.o[0m
+[17.463s] [ 65%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[17.720s] [ 65%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[17.777s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/drive_to_wall_a__type_support_c.cpp.o[0m
+[17.789s] [ 69%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[17.911s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/drive_to_wall_s__type_support.cpp.o[0m
+[17.938s] [ 70%] Built target custom_interfaces__rosidl_typesupport_cpp
+[17.985s] [ 72%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/drive_to_wall_a__type_support.cpp.o[0m
+[18.834s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.082s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[19.403s] [ 76%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[19.711s] [ 76%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[20.178s] [ 78%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[20.358s] [ 78%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[20.434s] [ 78%] Built target custom_interfaces
+[20.487s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.676s] [ 80%] Built target custom_interfaces__py
+[22.748s] [ 81%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_drive_to_wall_t_s.c.o[0m
+[22.749s] [ 83%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_reached_wall_t_s.c.o[0m
+[22.757s] [ 85%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_drive_to_wall_s_s.c.o[0m
+[22.758s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_drive_to_wall_a_s.c.o[0m
+[23.550s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[23.698s] [ 89%] Built target custom_interfaces__rosidl_generator_py
+[23.758s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.768s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[23.781s] [ 94%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.315s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[24.405s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[24.441s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[24.471s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[24.554s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[24.565s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[24.597s] Invoked command in '/root/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/custom_interfaces -- -j8 -l8
+[24.600s] Invoking command in '/root/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/custom_interfaces
+[24.624s] -- Install configuration: ""
+[24.632s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[24.632s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[24.632s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[24.634s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[24.636s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__functions.h
+[24.639s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__type_support.h
+[24.642s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__struct.h
+[24.645s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__functions.c
+[24.649s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/drive_to_wall_a.h
+[24.657s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[24.657s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/drive_to_wall_t.h
+[24.657s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[24.657s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__functions.h
+[24.661s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__struct.h
+[24.663s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__functions.c
+[24.665s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__struct.h
+[24.666s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__functions.h
+[24.666s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__type_support.h
+[24.666s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__type_support.h
+[24.669s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__functions.c
+[24.669s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/reached_wall_t.h
+[24.670s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[24.670s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[24.670s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/drive_to_wall_s.h
+[24.670s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[24.670s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__struct.h
+[24.674s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__functions.h
+[24.675s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__type_support.h
+[24.676s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__functions.c
+[24.676s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[24.677s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[24.677s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[24.685s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[24.685s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[24.685s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[24.685s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[24.685s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__rosidl_typesupport_fastrtps_c.h
+[24.685s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[24.685s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.686s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[24.686s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__rosidl_typesupport_fastrtps_c.h
+[24.691s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__rosidl_typesupport_fastrtps_c.h
+[24.691s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[24.692s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[24.692s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__rosidl_typesupport_fastrtps_c.h
+[24.692s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[24.694s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[24.695s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[24.695s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[24.695s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[24.695s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__type_support.hpp
+[24.695s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__traits.hpp
+[24.695s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__struct.hpp
+[24.696s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__builder.hpp
+[24.696s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/drive_to_wall_a.hpp
+[24.696s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[24.696s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/drive_to_wall_t.hpp
+[24.696s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[24.696s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__struct.hpp
+[24.696s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__builder.hpp
+[24.697s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__struct.hpp
+[24.698s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__traits.hpp
+[24.698s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__type_support.hpp
+[24.698s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__traits.hpp
+[24.698s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__type_support.hpp
+[24.702s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__builder.hpp
+[24.702s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/reached_wall_t.hpp
+[24.702s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.703s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[24.703s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[24.703s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__traits.hpp
+[24.703s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__builder.hpp
+[24.703s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__type_support.hpp
+[24.704s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__struct.hpp
+[24.704s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/drive_to_wall_s.hpp
+[24.705s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[24.705s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[24.705s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[24.706s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__rosidl_typesupport_fastrtps_cpp.hpp
+[24.707s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps
+[24.707s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[24.707s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.709s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[24.710s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__rosidl_typesupport_fastrtps_cpp.hpp
+[24.710s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__rosidl_typesupport_fastrtps_cpp.hpp
+[24.710s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[24.711s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[24.711s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[24.711s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__rosidl_typesupport_fastrtps_cpp.hpp
+[24.712s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[24.712s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[24.713s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.714s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[24.714s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[24.714s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[24.715s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__rosidl_typesupport_introspection_c.h
+[24.716s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__type_support.c
+[24.717s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[24.717s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[24.717s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__rosidl_typesupport_introspection_c.h
+[24.718s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__type_support.c
+[24.718s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__type_support.c
+[24.719s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__rosidl_typesupport_introspection_c.h
+[24.719s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.720s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[24.720s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[24.721s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__type_support.c
+[24.721s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__rosidl_typesupport_introspection_c.h
+[24.722s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[24.723s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[24.724s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[24.724s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[24.724s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[24.725s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[24.726s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[24.726s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__type_support.cpp
+[24.726s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/drive_to_wall_a__rosidl_typesupport_introspection_cpp.hpp
+[24.726s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[24.727s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[24.727s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__rosidl_typesupport_introspection_cpp.hpp
+[24.728s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__type_support.cpp
+[24.728s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/reached_wall_t__rosidl_typesupport_introspection_cpp.hpp
+[24.729s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/drive_to_wall_t__type_support.cpp
+[24.730s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[24.730s] -- Up-to-date: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[24.731s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__type_support.cpp
+[24.731s] -- Installing: /root/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/drive_to_wall_s__rosidl_typesupport_introspection_cpp.hpp
+[24.732s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[24.733s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[24.734s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[24.734s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[24.735s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[24.735s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[24.736s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[24.737s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.738s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[24.738s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[24.739s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.739s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[24.740s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.740s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[24.740s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.741s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[24.742s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action
+[24.742s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_drive_to_wall_a.py
+[24.743s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_drive_to_wall_a_s.c
+[24.744s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py
+[24.745s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.745s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.746s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[24.746s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_drive_to_wall_t_s.c
+[24.747s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_reached_wall_t.py
+[24.747s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_reached_wall_t_s.c
+[24.748s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_drive_to_wall_t.py
+[24.748s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[24.749s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[24.749s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_drive_to_wall_s.py
+[24.750s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_drive_to_wall_s_s.c
+[24.750s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[24.751s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[24.752s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[24.894s] Listing '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[24.894s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[24.894s] Listing '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...
+[24.894s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py'...
+[24.895s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_drive_to_wall_a.py'...
+[24.895s] Listing '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[24.895s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[24.895s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_drive_to_wall_t.py'...
+[24.895s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_reached_wall_t.py'...
+[24.895s] Listing '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[24.895s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[24.895s] Compiling '/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_drive_to_wall_s.py'...
+[24.906s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.906s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.906s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.906s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.907s] -- Installing: /root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.908s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.909s] -- Installing: /root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[24.909s] -- Set runtime path of "/root/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[24.910s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/DriveToWallT.idl
+[24.910s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/ReachedWallT.idl
+[24.911s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/DriveToWallS.idl
+[24.912s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/DriveToWallA.idl
+[24.913s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/DriveToWallT.msg
+[24.914s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/ReachedWallT.msg
+[24.919s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/DriveToWallS.srv
+[24.919s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/DriveToWallS_Request.msg
+[24.919s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/DriveToWallS_Response.msg
+[24.919s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/action/DriveToWallA.action
+[24.919s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[24.919s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[24.920s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[24.921s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[24.921s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[24.921s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[24.921s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[24.921s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[24.921s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[24.921s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[24.930s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.930s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[24.930s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[24.930s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.931s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[24.931s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[24.931s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[24.931s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.931s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[24.931s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[24.932s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[24.932s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[24.932s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.932s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.932s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.932s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.933s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[24.933s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.933s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.933s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[24.933s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[24.933s] -- Installing: /root/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[24.943s] Invoked command in '/root/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/custom_interfaces

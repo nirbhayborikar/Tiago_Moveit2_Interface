@@ -1,0 +1,576 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/ros2_ws/build/moveit_wrapper_interfaces
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target moveit_wrapper_interfaces__cpp
+[  0%] Built target ament_cmake_python_symlink_moveit_wrapper_interfaces
+[  0%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  1%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/msg/detail/waypoint__type_support.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/attach_obj__type_support.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/dettach_obj__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/execute_plans__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/get_attached_objs__type_support.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/get_col_obj__type_support.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/get_named_target__type_support.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/get_named_targets__type_support.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/goto_named_target__type_support.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/plan__type_support.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/plan_joints__type_support.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/remove_col_obj__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/move_torso__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/srv/detail/add_col_obj__type_support.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__type_support.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library libmoveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 12%] Built target moveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp
+running egg_info
+creating moveit_wrapper_interfaces.egg-info
+writing moveit_wrapper_interfaces.egg-info/PKG-INFO
+writing dependency_links to moveit_wrapper_interfaces.egg-info/dependency_links.txt
+writing top-level names to moveit_wrapper_interfaces.egg-info/top_level.txt
+writing manifest file 'moveit_wrapper_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'moveit_wrapper_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'moveit_wrapper_interfaces.egg-info/SOURCES.txt'
+[ 12%] Built target ament_cmake_python_build_moveit_wrapper_interfaces_egg
+[ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/msg/detail/dds_fastrtps/waypoint__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/execute_plans__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/get_attached_objs__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/get_col_obj__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/get_named_target__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/get_named_targets__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/goto_named_target__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/plan__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/plan_joints__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/remove_col_obj__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/move_torso__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/dettach_obj__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/attach_obj__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/dds_fastrtps/add_col_obj__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/msg/detail/dds_fastrtps/waypoint_sequence__type_support.cpp.o[0m
+[ 24%] [32m[1mLinking CXX shared library libmoveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 24%] Built target moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/msg/waypoint__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/get_attached_objs__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/get_col_obj__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/get_named_target__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/get_named_targets__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/goto_named_target__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/plan__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/plan_joints__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/remove_col_obj__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/move_torso__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/execute_plans__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/dettach_obj__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/attach_obj__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/srv/add_col_obj__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper_interfaces/msg/waypoint_sequence__type_support.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libmoveit_wrapper_interfaces__rosidl_typesupport_cpp.so[0m
+[ 36%] Built target moveit_wrapper_interfaces__rosidl_typesupport_cpp
+[ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 37%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/msg/detail/waypoint__functions.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/get_col_obj__functions.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/get_named_target__functions.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/get_named_targets__functions.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/goto_named_target__functions.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/plan__functions.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/plan_joints__functions.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/remove_col_obj__functions.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/move_torso__functions.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/get_attached_objs__functions.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/execute_plans__functions.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/dettach_obj__functions.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/attach_obj__functions.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/srv/detail/add_col_obj__functions.c.o[0m
+[ 47%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__functions.c.o[0m
+[ 48%] [32m[1mLinking C shared library libmoveit_wrapper_interfaces__rosidl_generator_c.so[0m
+[ 48%] Built target moveit_wrapper_interfaces__rosidl_generator_c
+[ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/msg/detail/waypoint__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/execute_plans__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/get_attached_objs__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/get_col_obj__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/get_named_target__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/get_named_targets__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/goto_named_target__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/plan__type_support_c.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/plan_joints__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/remove_col_obj__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/move_torso__type_support_c.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/dettach_obj__type_support_c.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/attach_obj__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/srv/detail/add_col_obj__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__type_support_c.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libmoveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 60%] Built target moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c
+[ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/msg/waypoint__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/get_attached_objs__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/get_col_obj__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/get_named_target__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/get_named_targets__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/goto_named_target__type_support.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/plan__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/plan_joints__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/remove_col_obj__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/move_torso__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/execute_plans__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/dettach_obj__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/attach_obj__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/srv/add_col_obj__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper_interfaces/msg/waypoint_sequence__type_support.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libmoveit_wrapper_interfaces__rosidl_typesupport_c.so[0m
+[ 72%] Built target moveit_wrapper_interfaces__rosidl_typesupport_c
+[ 73%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 74%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/msg/detail/waypoint__type_support.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/get_col_obj__type_support.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/get_named_target__type_support.c.o[0m
+[ 76%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/get_named_targets__type_support.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/goto_named_target__type_support.c.o[0m
+[ 77%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/plan__type_support.c.o[0m
+[ 78%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/plan_joints__type_support.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/remove_col_obj__type_support.c.o[0m
+[ 80%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/move_torso__type_support.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/get_attached_objs__type_support.c.o[0m
+[ 81%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/execute_plans__type_support.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/dettach_obj__type_support.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/attach_obj__type_support.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/srv/detail/add_col_obj__type_support.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__type_support.c.o[0m
+[ 84%] [32m[1mLinking C shared library libmoveit_wrapper_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 84%] Built target moveit_wrapper_interfaces__rosidl_typesupport_introspection_c
+[ 84%] Built target moveit_wrapper_interfaces
+[ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 85%] Built target moveit_wrapper_interfaces__py
+[ 85%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/msg/_waypoint_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_col_obj_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_named_target_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_named_targets_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_goto_named_target_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_plan_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_plan_joints_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_remove_col_obj_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_move_torso_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_get_attached_objs_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_execute_plans_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_dettach_obj_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_attach_obj_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/srv/_add_col_obj_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper_interfaces/msg/_waypoint_sequence_s.c.o[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper_interfaces/libmoveit_wrapper_interfaces__rosidl_generator_py.so[0m
+[ 96%] Built target moveit_wrapper_interfaces__rosidl_generator_py
+[ 97%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] Built target moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] Built target moveit_wrapper_interfaces__rosidl_typesupport_c__pyext
+[ 99%] [32mBuilding C object CMakeFiles/moveit_wrapper_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target moveit_wrapper_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/ament_index/resource_index/rosidl_interfaces/moveit_wrapper_interfaces
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/waypoint.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/waypoint_sequence.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/add_col_obj.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/attach_obj.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__functions.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__struct.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__type_support.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/dettach_obj.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/execute_plans.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_attached_objs.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_col_obj.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_named_target.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_named_targets.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/goto_named_target.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/move_torso.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/plan.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/plan_joints.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/remove_col_obj.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/library_path.sh
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/library_path.dsv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__rosidl_typesupport_introspection_c.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/waypoint.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/waypoint_sequence.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/add_col_obj.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/attach_obj.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__builder.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__struct.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__traits.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__type_support.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/dettach_obj.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/execute_plans.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_attached_objs.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_col_obj.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_named_target.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/get_named_targets.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/goto_named_target.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/move_torso.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/plan.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/plan_joints.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/remove_col_obj.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/msg/detail/waypoint_sequence__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/add_col_obj__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/attach_obj__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/dettach_obj__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/execute_plans__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_attached_objs__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_col_obj__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_target__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/get_named_targets__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/goto_named_target__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/move_torso__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/plan_joints__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/include/moveit_wrapper_interfaces/moveit_wrapper_interfaces/srv/detail/remove_col_obj__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/pythonpath.sh
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/pythonpath.dsv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces-1.1.2-py3.10.egg-info/PKG-INFO
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces-1.1.2-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces-1.1.2-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces-1.1.2-py3.10.egg-info/top_level.txt
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/__init__.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/_moveit_wrapper_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/libmoveit_wrapper_interfaces__rosidl_generator_py.so
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/__init__.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/_waypoint.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/_waypoint_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/_waypoint_sequence.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/_waypoint_sequence_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/__init__.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_add_col_obj.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_add_col_obj_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_attach_obj.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_attach_obj_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_dettach_obj.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_dettach_obj_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_execute_plans.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_execute_plans_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_attached_objs.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_attached_objs_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_col_obj.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_col_obj_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_named_target.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_named_target_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_named_targets.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_named_targets_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_goto_named_target.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_goto_named_target_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_move_torso.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_move_torso_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_plan.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_plan_joints.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_plan_joints_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_plan_s.c
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_remove_col_obj.py
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_remove_col_obj_s.c
+-- Up-to-date symlink: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/moveit_wrapper_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/msg/Waypoint.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/msg/WaypointSequence.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AddColObj.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AttachObj.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/DettachObj.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/ExecutePlans.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetAttachedObjs.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetColObj.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTarget.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTargets.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GotoNamedTarget.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/Plan.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/PlanJoints.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/RemoveColObj.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/MoveTorso.idl
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/msg/Waypoint.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/msg/WaypointSequence.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AddColObj.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AddColObj_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AddColObj_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AttachObj.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AttachObj_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/AttachObj_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/DettachObj.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/DettachObj_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/DettachObj_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/ExecutePlans.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/ExecutePlans_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/ExecutePlans_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetAttachedObjs.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetAttachedObjs_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetAttachedObjs_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetColObj.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetColObj_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetColObj_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTarget.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTarget_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTarget_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTargets.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTargets_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GetNamedTargets_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GotoNamedTarget.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GotoNamedTarget_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/GotoNamedTarget_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/Plan.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/Plan_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/Plan_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/PlanJoints.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/PlanJoints_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/PlanJoints_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/RemoveColObj.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/RemoveColObj_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/RemoveColObj_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/MoveTorso.srv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/MoveTorso_Request.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/srv/MoveTorso_Response.msg
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/ament_index/resource_index/package_run_dependencies/moveit_wrapper_interfaces
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/ament_index/resource_index/parent_prefix_path/moveit_wrapper_interfaces
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/package.dsv
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/ament_index/resource_index/packages/moveit_wrapper_interfaces
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfacesConfig.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfacesConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/package.xml
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/__init__.py'...
+Listing '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/__init__.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/_waypoint.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/msg/_waypoint_sequence.py'...
+Listing '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/__init__.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_add_col_obj.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_attach_obj.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_dettach_obj.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_execute_plans.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_attached_objs.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_col_obj.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_named_target.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_get_named_targets.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_goto_named_target.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_move_torso.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_plan.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_plan_joints.py'...
+Compiling '/root/ros2_ws/install/moveit_wrapper_interfaces/local/lib/python3.10/dist-packages/moveit_wrapper_interfaces/srv/_remove_col_obj.py'...
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/root/ros2_ws/install/moveit_wrapper_interfaces/lib/libmoveit_wrapper_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/moveit_wrapper_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /root/ros2_ws/install/moveit_wrapper_interfaces/share/moveit_wrapper_interfaces/cmake/export_moveit_wrapper_interfaces__rosidl_generator_pyExport-noconfig.cmake

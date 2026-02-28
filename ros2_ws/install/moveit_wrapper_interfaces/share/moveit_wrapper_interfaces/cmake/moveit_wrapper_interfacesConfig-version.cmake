@@ -1,0 +1,1 @@
+/root/ros2_ws/build/moveit_wrapper_interfaces/ament_cmake_core/moveit_wrapper_interfacesConfig-version.cmake

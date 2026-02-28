@@ -1,0 +1,6 @@
+Invoking command in '/root/ros2_ws/build/moveit_wrapper_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_wrapper_interfaces
+Invoked command in '/root/ros2_ws/build/moveit_wrapper_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_wrapper_interfaces
+Invoking command in '/root/ros2_ws/build/moveit_wrapper_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/moveit_wrapper_interfaces -- -j8 -l8
+Invoked command in '/root/ros2_ws/build/moveit_wrapper_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/moveit_wrapper_interfaces -- -j8 -l8
+Invoking command in '/root/ros2_ws/build/moveit_wrapper_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/moveit_wrapper_interfaces
+Invoked command in '/root/ros2_ws/build/moveit_wrapper_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/moveit_wrapper_interfaces

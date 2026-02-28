@@ -1,0 +1,3 @@
+[console_scripts]
+tf_test = tf_test.tf_test:main
+

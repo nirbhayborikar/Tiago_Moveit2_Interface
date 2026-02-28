@@ -1,0 +1,1 @@
+/root/ros2_ws/build/moveit_wrapper_interfaces/rosidl_typesupport_fastrtps_cpp/moveit_wrapper_interfaces/srv/detail/add_col_obj__rosidl_typesupport_fastrtps_cpp.hpp

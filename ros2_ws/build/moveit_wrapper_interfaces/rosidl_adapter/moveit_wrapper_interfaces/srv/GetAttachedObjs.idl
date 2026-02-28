@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_wrapper_interfaces/srv/GetAttachedObjs.srv
+// generated code does not contain a copyright notice
+
+#include "visualization_msgs/msg/Marker.idl"
+
+module moveit_wrapper_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Returns all gripper attached objects")
+    struct GetAttachedObjs_Request {
+      string move_group;
+    };
+    struct GetAttachedObjs_Response {
+      sequence<visualization_msgs::msg::Marker> objects;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

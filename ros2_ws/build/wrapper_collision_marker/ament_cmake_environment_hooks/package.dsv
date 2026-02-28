@@ -1,0 +1,4 @@
+source;share/wrapper_collision_marker/local_setup.bash
+source;share/wrapper_collision_marker/local_setup.dsv
+source;share/wrapper_collision_marker/local_setup.sh
+source;share/wrapper_collision_marker/local_setup.zsh

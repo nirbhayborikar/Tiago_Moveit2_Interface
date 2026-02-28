@@ -1,0 +1,3 @@
+[console_scripts]
+start_inspection = tiago_inspection.start_inspection:main
+

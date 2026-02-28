@@ -1,0 +1,8 @@
+source;share/wrapper_collision_marker/hook/cmake_prefix_path.ps1
+source;share/wrapper_collision_marker/hook/cmake_prefix_path.dsv
+source;share/wrapper_collision_marker/hook/cmake_prefix_path.sh
+source;share/wrapper_collision_marker/local_setup.bash
+source;share/wrapper_collision_marker/local_setup.dsv
+source;share/wrapper_collision_marker/local_setup.ps1
+source;share/wrapper_collision_marker/local_setup.sh
+source;share/wrapper_collision_marker/local_setup.zsh

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_wrapper_interfaces/srv/DettachObj.srv
+// generated code does not contain a copyright notice
+
+
+module moveit_wrapper_interfaces {
+  module srv {
+    struct DettachObj_Request {
+      sequence<string> object_names;
+
+      string move_group;
+    };
+    struct DettachObj_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

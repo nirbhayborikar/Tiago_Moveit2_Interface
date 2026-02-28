@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from moveit_wrapper_interfaces/msg/WaypointSequence.msg
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_wrapper_interfaces/msg/Waypoint.idl"
+
+module moveit_wrapper_interfaces {
+  module msg {
+    struct WaypointSequence {
+      @verbatim (language="comment", text=
+        "Identifier for this sequence")
+      string sequence_id;
+
+      @verbatim (language="comment", text=
+        "Waypoints for this trajectory")
+      sequence<moveit_wrapper_interfaces::msg::Waypoint> waypoints;
+
+      @verbatim (language="comment", text=
+        "Constraints specific to this sequence")
+      moveit_msgs::msg::Constraints path_constraints;
+
+      @verbatim (language="comment", text=
+        "Use linear interpolation between waypoints")
+      boolean use_linear_interpolation;
+
+      @verbatim (language="comment", text=
+        "Velocity scaling for this sequence (0.0 = use default)")
+      double velocity_scaling;
+
+      @verbatim (language="comment", text=
+        "Acceleration scaling for this sequence (0.0 = use default)")
+      double acceleration_scaling;
+    };
+  };
+};

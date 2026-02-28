@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_wrapper_interfaces/srv/GetNamedTargets.srv
+// generated code does not contain a copyright notice
+
+
+module moveit_wrapper_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GetNamedTargets_Request {
+      string move_group;
+    };
+    struct GetNamedTargets_Response {
+      @verbatim (language="comment", text=
+        "Response")
+      sequence<string> names;
+
+      boolean success;
+
+      string message;
+    };
+  };
+};

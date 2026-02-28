@@ -1,0 +1,37 @@
+running develop
+Removing /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean-the-table.egg-link (link to .)
+running egg_info
+writing ../../../../../build/clean_the_table/clean_the_table.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/clean_the_table/clean_the_table.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/clean_the_table/clean_the_table.egg-info/entry_points.txt
+writing requirements to ../../../../../build/clean_the_table/clean_the_table.egg-info/requires.txt
+writing top-level names to ../../../../../build/clean_the_table/clean_the_table.egg-info/top_level.txt
+reading manifest file '../../../../../build/clean_the_table/clean_the_table.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../../../build/clean_the_table/clean_the_table.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/build/clean_the_table/build
+creating /root/ros2_ws/build/clean_the_table/build/lib
+creating /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+copying clean_the_table/scene_analysis.py -> /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+copying clean_the_table/drive_to_table.py -> /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+copying clean_the_table/__init__.py -> /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table
+running install
+running install_lib
+creating /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+copying /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table/scene_analysis.py -> /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+copying /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table/drive_to_table.py -> /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+copying /root/ros2_ws/build/clean_the_table/build/lib/clean_the_table/__init__.py -> /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table
+byte-compiling /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table/scene_analysis.py to scene_analysis.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table/drive_to_table.py to drive_to_table.cpython-310.pyc
+byte-compiling /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/clean_the_table -> /root/ros2_ws/install/clean_the_table/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/install/clean_the_table/share/clean_the_table
+running install_egg_info
+Copying ../../../../../build/clean_the_table/clean_the_table.egg-info to /root/ros2_ws/install/clean_the_table/lib/python3.10/site-packages/clean_the_table-0.0.0-py3.10.egg-info
+running install_scripts
+Installing drive_to_table script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+Installing scene_analysis script to /root/ros2_ws/install/clean_the_table/lib/clean_the_table
+writing list of installed files to '/root/ros2_ws/build/clean_the_table/install.log'

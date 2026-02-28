@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.003170] (-) JobUnselected: {'identifier': 'apriltag'}
+[0.003433] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.003534] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.003593] (-) JobUnselected: {'identifier': 'clean_the_table'}
+[0.003650] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.003710] (-) JobUnselected: {'identifier': 'drive_to_wall'}
+[0.003766] (-) JobUnselected: {'identifier': 'move_head'}
+[0.003825] (-) JobUnselected: {'identifier': 'moveit_wrapper'}
+[0.003878] (-) JobUnselected: {'identifier': 'moveit_wrapper_test'}
+[0.003933] (-) JobUnselected: {'identifier': 'my_nav2'}
+[0.003985] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004035] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.004086] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.004159] (-) JobUnselected: {'identifier': 'tf_test'}
+[0.004239] (-) JobUnselected: {'identifier': 'tiago_inspection'}
+[0.004290] (-) JobUnselected: {'identifier': 'wall_stop'}
+[0.004347] (-) JobUnselected: {'identifier': 'wrapper_collision_marker'}
+[0.004430] (moveit_wrapper_interfaces) JobQueued: {'identifier': 'moveit_wrapper_interfaces', 'dependencies': OrderedDict()}
+[0.007007] (moveit_wrapper_interfaces) JobStarted: {'identifier': 'moveit_wrapper_interfaces'}
+[0.045005] (moveit_wrapper_interfaces) JobProgress: {'identifier': 'moveit_wrapper_interfaces', 'progress': 'cmake'}
+[0.049422] (moveit_wrapper_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/25ws_nb-246830/submodules/moveit-wrapper-stud/moveit_wrapper_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_wrapper_interfaces'], 'cwd': '/root/ros2_ws/build/moveit_wrapper_interfaces', 'env': OrderedDict([('HOSTNAME', 'nirbhayborikar-HP-Pavilion-x360-Convertible-14-dh1xxx'), ('SHLVL', '1'), ('HOME', '/root'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,video,utility,graphics'), ('TERM', 'xterm'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REPO', '/root/ros2_ws/src/prj-iki-ros2/knowledgebase/iki_object_models'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XAUTHORITY', '/tmp/.Xauthority'), ('ROS_DOMAIN_ID', '8'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('ROS_WS', '/root/ros2_ws'), ('TIAGO_WS', '/root/tiago_ws'), ('PWD', '/root/ros2_ws/build/moveit_wrapper_interfaces'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1')]), 'shell': False}
+[0.099438] (-) TimerEvent: {}
+[0.203006] (-) TimerEvent: {}
+[0.305866] (-) TimerEvent: {}
+[0.404448] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.408091] (-) TimerEvent: {}
+[0.509219] (-) TimerEvent: {}
+[0.610251] (-) TimerEvent: {}
+[0.684403] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.710506] (-) TimerEvent: {}
+[0.726736] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.813988] (-) TimerEvent: {}
+[0.916605] (-) TimerEvent: {}
+[1.018702] (-) TimerEvent: {}
+[1.063064] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.105488] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.113594] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.117250] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.121966] (-) TimerEvent: {}
+[1.138193] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.222481] (-) TimerEvent: {}
+[1.323330] (-) TimerEvent: {}
+[1.424861] (-) TimerEvent: {}
+[1.496225] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.525090] (-) TimerEvent: {}
+[1.540825] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.543022] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.556449] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.625662] (-) TimerEvent: {}
+[1.639477] (moveit_wrapper_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[1.639887] (moveit_wrapper_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.640119] (moveit_wrapper_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.640548] (moveit_wrapper_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.640791] (moveit_wrapper_interfaces) StderrLine: {'line': b'\n'}
+[1.641004] (moveit_wrapper_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.641244] (moveit_wrapper_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[1.641460] (moveit_wrapper_interfaces) StderrLine: {'line': b'\n'}
+[1.641666] (moveit_wrapper_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.641877] (moveit_wrapper_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.642083] (moveit_wrapper_interfaces) StderrLine: {'line': b'\n'}
+[1.642318] (moveit_wrapper_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.642529] (moveit_wrapper_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.642731] (moveit_wrapper_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.642941] (moveit_wrapper_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[1.644832] (moveit_wrapper_interfaces) StderrLine: {'line': b'\n'}
+[1.645164] (moveit_wrapper_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.645664] (moveit_wrapper_interfaces) StdoutLine: {'line': b'See also "/root/ros2_ws/build/moveit_wrapper_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.645995] (moveit_wrapper_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.663899] (moveit_wrapper_interfaces) CommandEnded: {'returncode': 1}
+[1.726106] (-) TimerEvent: {}
+[1.807838] (moveit_wrapper_interfaces) JobEnded: {'identifier': 'moveit_wrapper_interfaces', 'rc': 1}
+[1.818987] (-) EventReactorShutdown: {}
