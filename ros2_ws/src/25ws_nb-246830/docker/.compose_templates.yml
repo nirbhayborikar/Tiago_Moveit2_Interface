@@ -1,0 +1,64 @@
+services:
+
+  .custom_image:
+    #custom_image_added
+    image: nb-246830_workspace_custom
+    extends: .workspace_gui
+
+
+  .tiago_sim:
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim-ir
+    extends: .gui_nav
+
+  .tiago_workspace: 
+    #image: fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim-ir
+    extends: .workspace_gui
+
+  .gui:
+    extends: .common_nvidia #replace with .common_nvidia if you are using the docker nvidia runtime and know what you are doing
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/root/.Xauthority:ro
+      - ${IKI_WORKSPACE_2026}:/root
+
+  .gui_nav:
+    extends: .common_nvidia #replace with .common_nvidia if you are using the docker nvidia runtime and know what you are doing
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/root/.Xauthority:ro
+      - ${IKI_WORKSPACE_2026}/ros2_ws/src/25ws_nb-246830/maps:/maps
+      - ${IKI_WORKSPACE_2026}/ros2_ws/src/25ws_nb-246830:/root/ros2_ws/src/25ws_nb-246830
+      - ../config/rviz:/root/tiago_ws/install/rwu_tiago_config/share/rwu_tiago_config/config/rviz
+
+  .workspace_gui:
+    extends: .common_nvidia #replace with .common_nvidia if you are using the docker nvidia runtime and know what you are doing
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/tmp/.Xauthority:ro
+      - ${IKI_WORKSPACE_2026}:/root
+      - ${IKI_WORKSPACE_2026}/ros2_ws/src/25ws_nb-246830:/root/ros2_ws/src/25ws_nb-246830
+      - ../config:/config # config rviz2 moveit
+      - ../config/:/root/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg
+    environment:
+      - XAUTHORITY=/tmp/.Xauthority # Tell ROS/GUI apps where to find it
+      - DISPLAY=$DISPLAY
+
+  .common:
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim-ir
+    environment:
+      ROS_DOMAIN_ID: $ROS_DOMAIN_ID
+      DISPLAY: $DISPLAY
+    network_mode: host
+    ipc: host
+    privileged: true
+    stdin_open: true
+ 
+  
+  .common_nvidia:
+    extends: .common
+    runtime: nvidia
+    environment:
+      QT_X11_NO_MITSHM: "1"
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,video,utility,graphics

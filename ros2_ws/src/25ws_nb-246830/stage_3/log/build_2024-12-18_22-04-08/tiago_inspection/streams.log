@@ -1,0 +1,24 @@
+[3.898s] Invoking command in '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection': PYTHONPATH=/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tiago_inspection build --build-base /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/build install --record /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/install.log --single-version-externally-managed install_data
+[5.516s] running egg_info
+[5.523s] writing ../build/tiago_inspection/tiago_inspection.egg-info/PKG-INFO
+[5.525s] writing dependency_links to ../build/tiago_inspection/tiago_inspection.egg-info/dependency_links.txt
+[5.525s] writing entry points to ../build/tiago_inspection/tiago_inspection.egg-info/entry_points.txt
+[5.526s] writing requirements to ../build/tiago_inspection/tiago_inspection.egg-info/requires.txt
+[5.529s] writing top-level names to ../build/tiago_inspection/tiago_inspection.egg-info/top_level.txt
+[5.536s] reading manifest file '../build/tiago_inspection/tiago_inspection.egg-info/SOURCES.txt'
+[5.537s] adding license file 'LICENSE'
+[5.542s] writing manifest file '../build/tiago_inspection/tiago_inspection.egg-info/SOURCES.txt'
+[5.543s] running build
+[5.544s] running build_py
+[5.544s] running install
+[5.547s] running install_lib
+[5.556s] byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection/start_inspection.py to start_inspection.cpython-310.pyc
+[5.564s] byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection/__init__.py to __init__.cpython-310.pyc
+[5.565s] running install_data
+[5.566s] running install_egg_info
+[5.574s] removing '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection-0.0.0-py3.10.egg-info' (and everything under it)
+[5.580s] Copying ../build/tiago_inspection/tiago_inspection.egg-info to /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection-0.0.0-py3.10.egg-info
+[5.582s] running install_scripts
+[5.715s] Installing start_inspection script to /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/tiago_inspection
+[5.716s] writing list of installed files to '/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/install.log'
+[5.849s] Invoked command in '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection' returned '0': PYTHONPATH=/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tiago_inspection build --build-base /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/build install --record /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/install.log --single-version-externally-managed install_data

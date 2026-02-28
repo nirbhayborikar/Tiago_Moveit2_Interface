@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (wall_stop) JobQueued: {'identifier': 'wall_stop', 'dependencies': OrderedDict()}
+[0.000818] (wall_stop) JobStarted: {'identifier': 'wall_stop'}
+[0.099463] (-) TimerEvent: {}
+[0.199769] (-) TimerEvent: {}
+[0.300134] (-) TimerEvent: {}
+[0.400449] (-) TimerEvent: {}
+[0.500799] (-) TimerEvent: {}
+[0.601219] (-) TimerEvent: {}
+[0.701591] (-) TimerEvent: {}
+[0.801928] (-) TimerEvent: {}
+[0.902405] (-) TimerEvent: {}
+[1.003146] (-) TimerEvent: {}
+[1.103489] (-) TimerEvent: {}
+[1.188340] (wall_stop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/wall_stop', 'build', '--build-base', '/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build', 'install', '--record', '/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/nb-246830/stage_3/wall_stop', 'env': {'HOSTNAME': 'nirbhayborikar-HP-Pavilion-x360-Convertible-14-dh1xxx', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REPO': '/root/ros2_ws/src/prj-iki-ros2/knowledgebase/iki_object_models', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_package:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_WS': '/root/ros2_ws', 'TIAGO_WS': '/root/tiago_ws', 'PWD': '/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages:/root/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/root/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.203595] (-) TimerEvent: {}
+[1.303943] (-) TimerEvent: {}
+[1.404248] (-) TimerEvent: {}
+[1.504578] (-) TimerEvent: {}
+[1.604905] (-) TimerEvent: {}
+[1.676691] (wall_stop) StdoutLine: {'line': b'running egg_info\n'}
+[1.678116] (wall_stop) StdoutLine: {'line': b'creating ../build/wall_stop/wall_stop.egg-info\n'}
+[1.678490] (wall_stop) StdoutLine: {'line': b'writing ../build/wall_stop/wall_stop.egg-info/PKG-INFO\n'}
+[1.678901] (wall_stop) StdoutLine: {'line': b'writing dependency_links to ../build/wall_stop/wall_stop.egg-info/dependency_links.txt\n'}
+[1.679169] (wall_stop) StdoutLine: {'line': b'writing entry points to ../build/wall_stop/wall_stop.egg-info/entry_points.txt\n'}
+[1.679422] (wall_stop) StdoutLine: {'line': b'writing requirements to ../build/wall_stop/wall_stop.egg-info/requires.txt\n'}
+[1.679647] (wall_stop) StdoutLine: {'line': b'writing top-level names to ../build/wall_stop/wall_stop.egg-info/top_level.txt\n'}
+[1.679873] (wall_stop) StdoutLine: {'line': b"writing manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'\n"}
+[1.683803] (wall_stop) StdoutLine: {'line': b"reading manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'\n"}
+[1.684046] (wall_stop) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.685595] (wall_stop) StdoutLine: {'line': b"writing manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'\n"}
+[1.685856] (wall_stop) StdoutLine: {'line': b'running build\n'}
+[1.686046] (wall_stop) StdoutLine: {'line': b'running build_py\n'}
+[1.686279] (wall_stop) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build\n'}
+[1.686528] (wall_stop) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib\n'}
+[1.686698] (wall_stop) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop\n'}
+[1.686812] (wall_stop) StdoutLine: {'line': b'copying wall_stop/wall_stop_node.py -> /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop\n'}
+[1.686987] (wall_stop) StdoutLine: {'line': b'copying wall_stop/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop\n'}
+[1.687163] (wall_stop) StdoutLine: {'line': b'running install\n'}
+[1.687900] (wall_stop) StdoutLine: {'line': b'running install_lib\n'}
+[1.689532] (wall_stop) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop\n'}
+[1.689748] (wall_stop) StdoutLine: {'line': b'copying /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop/wall_stop_node.py -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop\n'}
+[1.689919] (wall_stop) StdoutLine: {'line': b'copying /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop\n'}
+[1.691036] (wall_stop) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop/wall_stop_node.py to wall_stop_node.cpython-310.pyc\n'}
+[1.691544] (wall_stop) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop/__init__.py to __init__.cpython-310.pyc\n'}
+[1.691823] (wall_stop) StdoutLine: {'line': b'running install_data\n'}
+[1.692041] (wall_stop) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index\n'}
+[1.692255] (wall_stop) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index\n'}
+[1.692452] (wall_stop) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index/packages\n'}
+[1.692622] (wall_stop) StdoutLine: {'line': b'copying resource/wall_stop -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index/packages\n'}
+[1.692818] (wall_stop) StdoutLine: {'line': b'copying package.xml -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/wall_stop\n'}
+[1.692927] (wall_stop) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.696944] (wall_stop) StdoutLine: {'line': b'Copying ../build/wall_stop/wall_stop.egg-info to /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop-0.0.0-py3.10.egg-info\n'}
+[1.698948] (wall_stop) StdoutLine: {'line': b'running install_scripts\n'}
+[1.705005] (-) TimerEvent: {}
+[1.750617] (wall_stop) StdoutLine: {'line': b'Installing wall_stop_node script to /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/wall_stop\n'}
+[1.751251] (wall_stop) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/install.log'\n"}
+[1.804562] (wall_stop) CommandEnded: {'returncode': 0}
+[1.805174] (-) TimerEvent: {}
+[1.831518] (wall_stop) JobEnded: {'identifier': 'wall_stop', 'rc': 0}
+[1.833712] (-) EventReactorShutdown: {}

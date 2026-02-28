@@ -1,0 +1,3 @@
+[console_scripts]
+goal_pub = my_nav2.goal_pub:main
+

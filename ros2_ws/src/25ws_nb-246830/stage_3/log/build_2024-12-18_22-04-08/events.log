@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001664] (-) JobUnselected: {'identifier': 'my_nav2'}
+[0.001818] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001916] (-) JobUnselected: {'identifier': 'wall_stop'}
+[0.002003] (tiago_inspection) JobQueued: {'identifier': 'tiago_inspection', 'dependencies': OrderedDict()}
+[0.002114] (tiago_inspection) JobStarted: {'identifier': 'tiago_inspection'}
+[0.096074] (-) TimerEvent: {}
+[0.197266] (-) TimerEvent: {}
+[0.300419] (-) TimerEvent: {}
+[0.401062] (-) TimerEvent: {}
+[0.501780] (-) TimerEvent: {}
+[0.603680] (-) TimerEvent: {}
+[0.705994] (-) TimerEvent: {}
+[0.806748] (-) TimerEvent: {}
+[0.909371] (-) TimerEvent: {}
+[1.011030] (-) TimerEvent: {}
+[1.115537] (-) TimerEvent: {}
+[1.216590] (-) TimerEvent: {}
+[1.318150] (-) TimerEvent: {}
+[1.421952] (-) TimerEvent: {}
+[1.522638] (-) TimerEvent: {}
+[1.623489] (-) TimerEvent: {}
+[1.724527] (-) TimerEvent: {}
+[1.825763] (-) TimerEvent: {}
+[1.927287] (-) TimerEvent: {}
+[2.028767] (-) TimerEvent: {}
+[2.131166] (-) TimerEvent: {}
+[2.233754] (-) TimerEvent: {}
+[2.336752] (-) TimerEvent: {}
+[2.437627] (-) TimerEvent: {}
+[2.538386] (-) TimerEvent: {}
+[2.639223] (-) TimerEvent: {}
+[2.740331] (-) TimerEvent: {}
+[2.841239] (-) TimerEvent: {}
+[2.944704] (-) TimerEvent: {}
+[3.047014] (-) TimerEvent: {}
+[3.148582] (-) TimerEvent: {}
+[3.250738] (-) TimerEvent: {}
+[3.353468] (-) TimerEvent: {}
+[3.454302] (-) TimerEvent: {}
+[3.557708] (-) TimerEvent: {}
+[3.659675] (-) TimerEvent: {}
+[3.761517] (-) TimerEvent: {}
+[3.862989] (-) TimerEvent: {}
+[3.879795] (tiago_inspection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/tiago_inspection', 'build', '--build-base', '/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/build', 'install', '--record', '/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection', 'env': {'HOSTNAME': 'nirbhayborikar-HP-Pavilion-x360-Convertible-14-dh1xxx', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws/src/nb-246830', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REPO': '/root/ros2_ws/src/prj-iki-ros2/knowledgebase/iki_object_models', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '14', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/wall_stop:/root/ros2_ws/install/tiago_inspection:/root/ros2_ws/install/py_srvcli:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_package:/root/ros2_ws/install/my_nav2:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_WS': '/root/ros2_ws', 'TIAGO_WS': '/root/tiago_ws', 'PWD': '/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages:/root/ros2_ws/install/wall_stop/lib/python3.10/site-packages:/root/ros2_ws/install/tiago_inspection/lib/python3.10/site-packages:/root/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/root/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/root/ros2_ws/install/my_package/lib/python3.10/site-packages:/root/ros2_ws/install/my_nav2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.963914] (-) TimerEvent: {}
+[4.068724] (-) TimerEvent: {}
+[4.169949] (-) TimerEvent: {}
+[4.270765] (-) TimerEvent: {}
+[4.372215] (-) TimerEvent: {}
+[4.475184] (-) TimerEvent: {}
+[4.578860] (-) TimerEvent: {}
+[4.681073] (-) TimerEvent: {}
+[4.784532] (-) TimerEvent: {}
+[4.888837] (-) TimerEvent: {}
+[4.990304] (-) TimerEvent: {}
+[5.091044] (-) TimerEvent: {}
+[5.192223] (-) TimerEvent: {}
+[5.293301] (-) TimerEvent: {}
+[5.394393] (-) TimerEvent: {}
+[5.495479] (-) TimerEvent: {}
+[5.517242] (tiago_inspection) StdoutLine: {'line': b'running egg_info\n'}
+[5.524234] (tiago_inspection) StdoutLine: {'line': b'writing ../build/tiago_inspection/tiago_inspection.egg-info/PKG-INFO\n'}
+[5.525514] (tiago_inspection) StdoutLine: {'line': b'writing dependency_links to ../build/tiago_inspection/tiago_inspection.egg-info/dependency_links.txt\n'}
+[5.527144] (tiago_inspection) StdoutLine: {'line': b'writing entry points to ../build/tiago_inspection/tiago_inspection.egg-info/entry_points.txt\n'}
+[5.527880] (tiago_inspection) StdoutLine: {'line': b'writing requirements to ../build/tiago_inspection/tiago_inspection.egg-info/requires.txt\n'}
+[5.528444] (tiago_inspection) StdoutLine: {'line': b'writing top-level names to ../build/tiago_inspection/tiago_inspection.egg-info/top_level.txt\n'}
+[5.537807] (tiago_inspection) StdoutLine: {'line': b"reading manifest file '../build/tiago_inspection/tiago_inspection.egg-info/SOURCES.txt'\n"}
+[5.539088] (tiago_inspection) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.543164] (tiago_inspection) StdoutLine: {'line': b"writing manifest file '../build/tiago_inspection/tiago_inspection.egg-info/SOURCES.txt'\n"}
+[5.544263] (tiago_inspection) StdoutLine: {'line': b'running build\n'}
+[5.545500] (tiago_inspection) StdoutLine: {'line': b'running build_py\n'}
+[5.546014] (tiago_inspection) StdoutLine: {'line': b'running install\n'}
+[5.548431] (tiago_inspection) StdoutLine: {'line': b'running install_lib\n'}
+[5.557891] (tiago_inspection) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection/start_inspection.py to start_inspection.cpython-310.pyc\n'}
+[5.566212] (tiago_inspection) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection/__init__.py to __init__.cpython-310.pyc\n'}
+[5.566793] (tiago_inspection) StdoutLine: {'line': b'running install_data\n'}
+[5.567418] (tiago_inspection) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.575831] (tiago_inspection) StdoutLine: {'line': b"removing '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.581781] (tiago_inspection) StdoutLine: {'line': b'Copying ../build/tiago_inspection/tiago_inspection.egg-info to /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages/tiago_inspection-0.0.0-py3.10.egg-info\n'}
+[5.583124] (tiago_inspection) StdoutLine: {'line': b'running install_scripts\n'}
+[5.595710] (-) TimerEvent: {}
+[5.697007] (-) TimerEvent: {}
+[5.716799] (tiago_inspection) StdoutLine: {'line': b'Installing start_inspection script to /root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/tiago_inspection\n'}
+[5.717837] (tiago_inspection) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/install.log'\n"}
+[5.798450] (-) TimerEvent: {}
+[5.850356] (tiago_inspection) CommandEnded: {'returncode': 0}
+[5.903087] (-) TimerEvent: {}
+[5.944041] (tiago_inspection) JobEnded: {'identifier': 'tiago_inspection', 'rc': 0}
+[5.949343] (-) EventReactorShutdown: {}

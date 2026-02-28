@@ -1,0 +1,19 @@
+# so the link is base image for the Tiago workspace container after form
+FROM fbe-dockerreg.rwu.de/prj-iki-ros2/robots/tiago/tiago_base:sim-ir
+
+RUN apt update
+RUN apt install -y git htop bmon vim 
+RUN apt install -y ros-humble-rqt-robot-steering
+RUN apt install ros-humble-play-motion2-msgs
+
+COPY src/25ws_nb-246830/submodules/moveit_wrapper/moveit_wrapper_interfaces /root/ros2_ws/moveit_wrapper_interfaces
+RUN source /opt/ros/humble/setup.bash && source /root/ros2_ws/install/setup.bash
+WORKDIR /root/ros2_ws
+RUN source ~/ros2_ws/install/setup.bash
+RUN source /opt/ros/humble/setup.bash && \ 
+    colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release \
+    --packages-select moveit_wrapper_interfaces apriltags apriltag_msgs apriltag_ros clean_the_table
+ 
+RUN source ~/ros2_ws/install/setup.bash
+RUN echo "source /root/ros2_ws/install/setup.bash" >> ~/.bashrc
+CMD ["echo", "Container Starting", "Tiago Workspace Created"]

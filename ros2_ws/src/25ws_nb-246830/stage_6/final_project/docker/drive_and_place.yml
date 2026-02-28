@@ -1,0 +1,23 @@
+ # 1. Starting with an object attached to the gripper
+ # 2. Drive to place table
+ # 3. Place object on a free spot
+    
+services:
+
+  nb-246830_workspace_extend_pick_carry_for_drive_place:
+    extends:
+      file: ../../../docker/.compose_templates.yml
+      service: .custom_image
+    command: 
+      - bash
+      - -c
+      - |
+        source /opt/ros/humble/setup.bash
+        source install/setup.bash 
+        ros2 run clean_the_table drive_and_place &
+        tail -f /dev/null
+
+
+
+
+    

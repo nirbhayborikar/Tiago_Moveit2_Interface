@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/wall_stop/wall_stop.egg-info
+writing ../build/wall_stop/wall_stop.egg-info/PKG-INFO
+writing dependency_links to ../build/wall_stop/wall_stop.egg-info/dependency_links.txt
+writing entry points to ../build/wall_stop/wall_stop.egg-info/entry_points.txt
+writing requirements to ../build/wall_stop/wall_stop.egg-info/requires.txt
+writing top-level names to ../build/wall_stop/wall_stop.egg-info/top_level.txt
+writing manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+reading manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build
+creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib
+creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop
+copying wall_stop/wall_stop_node.py -> /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop
+copying wall_stop/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop
+running install
+running install_lib
+creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop
+copying /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop/wall_stop_node.py -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop
+copying /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop
+byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop/wall_stop_node.py to wall_stop_node.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index
+creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index
+creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index/packages
+copying resource/wall_stop -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/wall_stop
+running install_egg_info
+Copying ../build/wall_stop/wall_stop.egg-info to /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wall_stop_node script to /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/wall_stop
+writing list of installed files to '/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/install.log'

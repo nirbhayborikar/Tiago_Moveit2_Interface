@@ -1,0 +1,6 @@
+[submodule "submodules/moveit_wrapper"]
+	path = submodules/moveit_wrapper
+	url = git@gitlab.rwu.de:mat-iki/moveit-wrapper-stud.git
+[submodule "submodules/ros2-apriltags-stud"]
+	path = submodules/ros2-apriltags-stud
+	url = git@gitlab.rwu.de:mat-iki/ros2-apriltags.git

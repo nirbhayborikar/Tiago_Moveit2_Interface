@@ -1,0 +1,96 @@
+services:
+# launch the robot
+  scene_analysis_table:
+    extends:
+      file: ../../../docker/.compose_templates.yml
+      service: .tiago_sim
+    command:
+          - bash
+          - -c
+          - |
+         
+            ros2 launch rwu_tiago_bringup sim_robocup_2023.launch.py is_public_sim:=True x:=-4.15 y:=2.26 yaw:=1.61 navigation:=True slam:=False map_path:=/maps/myfirstmap.yaml &          
+            source /opt/ros/humble/setup.bash
+            cd /root/ros2_ws/            
+            ros2 run gazebo_ros spawn_entity.py -entity door -database counter -x -3.0 -y 0.0 -z 0 -Y 0 
+            tail -f /dev/null
+
+
+# apriltag
+  apriltag_detection:
+    container_name: ros2_apriltag_detection
+    image: fbe-dockerreg.rwu.de/prj-iki-ros2/perception/apriltag:humble
+    environment:
+      ROS_DOMAIN_ID: $ROS_DOMAIN_ID
+    network_mode: host
+    restart: 'unless-stopped'
+    privileged: true
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../../../config/:/root/ros2_ws/install/apriltag_ros/share/apriltag_ros/cfg
+    command: 
+    - bash 
+    - -c 
+    - |
+        ros2 run apriltag_ros apriltag_node --ros-args -r image_rect:=/head_front_camera/rgb/image_raw -r camera_info:=/head_front_camera/rgb/camera_info  --params-file `ros2 pkg prefix apriltag_ros`/share/apriltag_ros/cfg/tags_36h11.yaml
+
+
+# moveit wrapper stud
+  moveit_wrapper:
+    #env_file: [.env]
+    image: fbe-dockerreg.rwu.de/mat-iki/moveit-wrapper-stud:humble
+    container_name: moveit_wrapper_stud
+    runtime: nvidia
+    network_mode: host
+    ipc: host
+    privileged: true
+    stdin_open: true
+    environment:
+      ROS_DOMAIN_ID: $ROS_DOMAIN_ID
+      DISPLAY: $DISPLAY
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/root/.Xauthority:ro
+      - ../../../submodules/moveit_wrapper/moveit_wrapper_interfaces:/root/ros2_ws/moveit_wrapper_interfaces
+    
+    command: 
+      - bash
+      - -c
+      - |
+        ros2 launch moveit_wrapper moveit_wrapper.launch.py start_rviz:=False use_sim_time:=True &&
+        tail -f /dev/null
+    
+
+
+# my workspace
+# commands and colcon build
+  nb-246830_workspace:
+    extends:
+      file: ../../../docker/.compose_templates.yml
+      service: .custom_image
+    command: 
+      - bash
+      - -c
+      - |
+        source /opt/ros/humble/setup.bash &&
+        ros2 action send_goal /head_controller/increment teleop_tools_msgs/action/Increment "{increment_by:[0.0,-0.9,0.1]}" &&
+        cd /root/ros2_ws/ &&
+
+        source install/setup.bash &&
+        sleep 17
+        ros2 run clean_the_table pick_and_carry &&
+        tail -f /dev/null
+
+
+# only for spwaning, so it will be independent of other commands like any node also started but failed
+  nb-246830_workspace_spawn_only:
+    extends:
+      file: ../../../docker/.compose_templates.yml
+      service: .custom_image
+    command: 
+      - bash
+      - -c
+      - |
+        cd /root/ros2_ws/src/25ws_nb-246830/models && python3 spawn_objects_clean_table.py
+

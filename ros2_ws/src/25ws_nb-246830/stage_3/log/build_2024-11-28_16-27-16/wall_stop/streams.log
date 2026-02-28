@@ -1,0 +1,38 @@
+[1.189s] Invoking command in '/root/ros2_ws/src/nb-246830/stage_3/wall_stop': PYTHONPATH=/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/wall_stop build --build-base /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build install --record /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/install.log --single-version-externally-managed install_data
+[1.676s] running egg_info
+[1.677s] creating ../build/wall_stop/wall_stop.egg-info
+[1.678s] writing ../build/wall_stop/wall_stop.egg-info/PKG-INFO
+[1.678s] writing dependency_links to ../build/wall_stop/wall_stop.egg-info/dependency_links.txt
+[1.678s] writing entry points to ../build/wall_stop/wall_stop.egg-info/entry_points.txt
+[1.679s] writing requirements to ../build/wall_stop/wall_stop.egg-info/requires.txt
+[1.679s] writing top-level names to ../build/wall_stop/wall_stop.egg-info/top_level.txt
+[1.679s] writing manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+[1.683s] reading manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+[1.683s] adding license file 'LICENSE'
+[1.685s] writing manifest file '../build/wall_stop/wall_stop.egg-info/SOURCES.txt'
+[1.685s] running build
+[1.685s] running build_py
+[1.686s] creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build
+[1.686s] creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib
+[1.686s] creating /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop
+[1.686s] copying wall_stop/wall_stop_node.py -> /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop
+[1.686s] copying wall_stop/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop
+[1.686s] running install
+[1.687s] running install_lib
+[1.689s] creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop
+[1.689s] copying /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop/wall_stop_node.py -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop
+[1.689s] copying /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build/lib/wall_stop/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop
+[1.690s] byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop/wall_stop_node.py to wall_stop_node.cpython-310.pyc
+[1.691s] byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop/__init__.py to __init__.cpython-310.pyc
+[1.691s] running install_data
+[1.691s] creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index
+[1.692s] creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index
+[1.692s] creating /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index/packages
+[1.692s] copying resource/wall_stop -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/ament_index/resource_index/packages
+[1.692s] copying package.xml -> /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/share/wall_stop
+[1.692s] running install_egg_info
+[1.696s] Copying ../build/wall_stop/wall_stop.egg-info to /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages/wall_stop-0.0.0-py3.10.egg-info
+[1.698s] running install_scripts
+[1.750s] Installing wall_stop_node script to /root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/wall_stop
+[1.751s] writing list of installed files to '/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/install.log'
+[1.804s] Invoked command in '/root/ros2_ws/src/nb-246830/stage_3/wall_stop' returned '0': PYTHONPATH=/root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/wall_stop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/wall_stop build --build-base /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/build install --record /root/ros2_ws/src/nb-246830/stage_3/build/wall_stop/install.log --single-version-externally-managed install_data

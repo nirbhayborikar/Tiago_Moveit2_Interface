@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (-) JobUnselected: {'identifier': 'wall_stop'}
+[0.000185] (my_nav2) JobQueued: {'identifier': 'my_nav2', 'dependencies': OrderedDict()}
+[0.000213] (my_nav2) JobStarted: {'identifier': 'my_nav2'}
+[0.099464] (-) TimerEvent: {}
+[0.199668] (-) TimerEvent: {}
+[0.299893] (-) TimerEvent: {}
+[0.400136] (-) TimerEvent: {}
+[0.500400] (-) TimerEvent: {}
+[0.503788] (my_nav2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/my_nav2', 'build', '--build-base', '/root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build', 'install', '--record', '/root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/nb-246830/stage_3/my_nav2', 'env': {'HOSTNAME': 'nirbhayborikar-HP-Pavilion-x360-Convertible-14-dh1xxx', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ros2_ws/src/nb-246830', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ros2_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REPO': '/root/ros2_ws/src/prj-iki-ros2/knowledgebase/iki_object_models', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/root/ros2_ws/install/wall_stop:/root/ros2_ws/install/py_pubsub:/root/ros2_ws/install/my_package:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_WS': '/root/ros2_ws', 'TIAGO_WS': '/root/tiago_ws', 'PWD': '/root/ros2_ws/src/nb-246830/stage_3/build/my_nav2', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/python3.10/site-packages:/root/ros2_ws/install/wall_stop/lib/python3.10/site-packages:/root/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/root/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.600518] (-) TimerEvent: {}
+[0.691699] (my_nav2) StdoutLine: {'line': b'running egg_info\n'}
+[0.692056] (my_nav2) StdoutLine: {'line': b'creating ../build/my_nav2/my_nav2.egg-info\n'}
+[0.692195] (my_nav2) StdoutLine: {'line': b'writing ../build/my_nav2/my_nav2.egg-info/PKG-INFO\n'}
+[0.692293] (my_nav2) StdoutLine: {'line': b'writing dependency_links to ../build/my_nav2/my_nav2.egg-info/dependency_links.txt\n'}
+[0.692424] (my_nav2) StdoutLine: {'line': b'writing entry points to ../build/my_nav2/my_nav2.egg-info/entry_points.txt\n'}
+[0.692575] (my_nav2) StdoutLine: {'line': b'writing requirements to ../build/my_nav2/my_nav2.egg-info/requires.txt\n'}
+[0.692652] (my_nav2) StdoutLine: {'line': b'writing top-level names to ../build/my_nav2/my_nav2.egg-info/top_level.txt\n'}
+[0.692776] (my_nav2) StdoutLine: {'line': b"writing manifest file '../build/my_nav2/my_nav2.egg-info/SOURCES.txt'\n"}
+[0.693821] (my_nav2) StdoutLine: {'line': b"reading manifest file '../build/my_nav2/my_nav2.egg-info/SOURCES.txt'\n"}
+[0.694058] (my_nav2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.694295] (my_nav2) StdoutLine: {'line': b"writing manifest file '../build/my_nav2/my_nav2.egg-info/SOURCES.txt'\n"}
+[0.694452] (my_nav2) StdoutLine: {'line': b'running build\n'}
+[0.694614] (my_nav2) StdoutLine: {'line': b'running build_py\n'}
+[0.694675] (my_nav2) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build\n'}
+[0.694728] (my_nav2) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build/lib\n'}
+[0.694778] (my_nav2) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build/lib/my_nav2\n'}
+[0.694836] (my_nav2) StdoutLine: {'line': b'copying my_nav2/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build/lib/my_nav2\n'}
+[0.694885] (my_nav2) StdoutLine: {'line': b'copying my_nav2/goal_pub.py -> /root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build/lib/my_nav2\n'}
+[0.694970] (my_nav2) StdoutLine: {'line': b'running install\n'}
+[0.695044] (my_nav2) StdoutLine: {'line': b'running install_lib\n'}
+[0.695510] (my_nav2) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/python3.10/site-packages/my_nav2\n'}
+[0.695605] (my_nav2) StdoutLine: {'line': b'copying /root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build/lib/my_nav2/__init__.py -> /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/python3.10/site-packages/my_nav2\n'}
+[0.695680] (my_nav2) StdoutLine: {'line': b'copying /root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/build/lib/my_nav2/goal_pub.py -> /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/python3.10/site-packages/my_nav2\n'}
+[0.696040] (my_nav2) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/python3.10/site-packages/my_nav2/__init__.py to __init__.cpython-310.pyc\n'}
+[0.696250] (my_nav2) StdoutLine: {'line': b'byte-compiling /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/python3.10/site-packages/my_nav2/goal_pub.py to goal_pub.cpython-310.pyc\n'}
+[0.696631] (my_nav2) StdoutLine: {'line': b'running install_data\n'}
+[0.696792] (my_nav2) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/share/ament_index\n'}
+[0.696885] (my_nav2) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/share/ament_index/resource_index\n'}
+[0.696948] (my_nav2) StdoutLine: {'line': b'creating /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/share/ament_index/resource_index/packages\n'}
+[0.697103] (my_nav2) StdoutLine: {'line': b'copying resource/my_nav2 -> /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/share/ament_index/resource_index/packages\n'}
+[0.697158] (my_nav2) StdoutLine: {'line': b'copying package.xml -> /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/share/my_nav2\n'}
+[0.697207] (my_nav2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.698321] (my_nav2) StdoutLine: {'line': b'Copying ../build/my_nav2/my_nav2.egg-info to /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/python3.10/site-packages/my_nav2-0.0.0-py3.10.egg-info\n'}
+[0.698928] (my_nav2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.700572] (-) TimerEvent: {}
+[0.714794] (my_nav2) StdoutLine: {'line': b'Installing goal_pub script to /root/ros2_ws/src/nb-246830/stage_3/install/my_nav2/lib/my_nav2\n'}
+[0.715028] (my_nav2) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/src/nb-246830/stage_3/build/my_nav2/install.log'\n"}
+[0.734119] (my_nav2) CommandEnded: {'returncode': 0}
+[0.744337] (my_nav2) JobEnded: {'identifier': 'my_nav2', 'rc': 0}
+[0.744644] (-) EventReactorShutdown: {}

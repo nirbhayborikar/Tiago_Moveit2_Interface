@@ -1,0 +1,3 @@
+[console_scripts]
+wall_stop_node = wall_stop.wall_stop_node:main
+

@@ -1,0 +1,55 @@
+# dockerfile building workspace
+# services:
+
+#   tiago_base:
+#     extends:
+#       file: .compose_templates.yml
+#       service: .tiago_sim
+#     command: ros2 launch rwu_tiago_bringup sim_robocup_2023.launch.py x:=-4.15 y:=2.26 yaw:=1.61 is_public_sim:=True
+
+#   rviz:
+#     extends:
+#         file: .compose_templates.yml
+#         service: .tiago_sim
+#     command: ros2 run rviz2 rviz2 -d /root/ros2_ws/src/25ws_nb-246830/config/moveit2.rviz
+
+# # #/root/ros2_ws/src/25ws_nb-246830
+services:
+  tiago_workspace_conainer2:
+    extends:
+      file: .compose_templates.yml
+      service: .custom_image
+    image: nb-246830_workspace_custom
+    build:
+      context: ../../..
+      dockerfile: src/25ws_nb-246830/docker/Dockerfile_Workspace
+    command: tail -f /dev/null
+           
+# docker 
+
+
+  
+  # tiago_base:
+  #   extends:
+  #     file: .compose_templates.yml
+  #     service: .tiago_sim
+  #   command: ros2 launch rwu_tiago_bringup sim_robocup_2023.launch.py is_public_sim:=True x:=-4.15 y:=2.26 yaw:=1.61 navigation:=True slam:=False map_path:=/maps/myfirstmap.yaml
+
+# commands and colcon build
+  # nb-246830_workspace:
+  #   extends:
+  #     file: .compose_templates.yml
+  #     service: .custom_image
+  #   command: 
+  #     - bash
+  #     - -c
+  #     - |
+  #       source /opt/ros/humble/setup.bash &&
+  #       ros2 action send_goal /head_controller/increment teleop_tools_msgs/action/Increment "{increment_by:[0.0,-0.8,0.1]}" &&
+  #       cd /root/ros2_ws/ &&
+
+  #       colcon build --packages-select clean_the_table &&
+  #       source install/setup.bash &&
+  #       ros2 run clean_the_table scene_analysis &&
+  #       tail -f /dev/null
+

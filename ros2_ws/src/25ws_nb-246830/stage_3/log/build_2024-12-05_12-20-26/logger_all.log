@@ -1,0 +1,157 @@
+[1.420s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'tiago_inspection']
+[1.421s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['tiago_inspection'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ca2f99519c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ca2f9a86110>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ca2f9a86110>>, mixin_verb=('build',))
+[3.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.528s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ros2_ws/src/nb-246830/stage_3'
+[3.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.675s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.681s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[3.683s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[3.684s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.691s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.693s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extensions ['ignore', 'ignore_ament_install']
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extension 'ignore'
+[3.697s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extension 'ignore_ament_install'
+[3.698s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extensions ['colcon_pkg']
+[3.698s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extension 'colcon_pkg'
+[3.699s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extensions ['colcon_meta']
+[3.699s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extension 'colcon_meta'
+[3.700s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extensions ['ros']
+[3.700s] Level 1:colcon.colcon_core.package_identification:_identify(my_nav2) by extension 'ros'
+[3.724s] DEBUG:colcon.colcon_core.package_identification:Package 'my_nav2' with type 'ros.ament_python' and name 'my_nav2'
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore'
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore_ament_install'
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_pkg']
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_pkg'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_meta']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_meta'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ros']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ros'
+[3.738s] DEBUG:colcon.colcon_core.package_identification:Package 'py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[3.739s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extensions ['ignore', 'ignore_ament_install']
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extension 'ignore'
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extension 'ignore_ament_install'
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extensions ['colcon_pkg']
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extension 'colcon_pkg'
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extensions ['colcon_meta']
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extension 'colcon_meta'
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extensions ['ros']
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(tiago_inspection) by extension 'ros'
+[3.750s] DEBUG:colcon.colcon_core.package_identification:Package 'tiago_inspection' with type 'ros.ament_python' and name 'tiago_inspection'
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extensions ['ignore', 'ignore_ament_install']
+[3.753s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extension 'ignore'
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extension 'ignore_ament_install'
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extensions ['colcon_pkg']
+[3.755s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extension 'colcon_pkg'
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extensions ['colcon_meta']
+[3.757s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extension 'colcon_meta'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extensions ['ros']
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(wall_stop) by extension 'ros'
+[3.765s] DEBUG:colcon.colcon_core.package_identification:Package 'wall_stop' with type 'ros.ament_python' and name 'wall_stop'
+[3.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.995s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_nav2' in 'my_nav2'
+[3.995s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_srvcli' in 'py_srvcli'
+[3.996s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wall_stop' in 'wall_stop'
+[4.001s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'cmake_args' from command line to 'None'
+[4.002s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'cmake_target' from command line to 'None'
+[4.003s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.003s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'cmake_clean_cache' from command line to 'False'
+[4.004s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'cmake_clean_first' from command line to 'False'
+[4.004s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'cmake_force_configure' from command line to 'False'
+[4.004s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'ament_cmake_args' from command line to 'None'
+[4.005s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'catkin_cmake_args' from command line to 'None'
+[4.007s] Level 5:colcon.colcon_core.verb:set package 'tiago_inspection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.007s] DEBUG:colcon.colcon_core.verb:Building package 'tiago_inspection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection', 'merge_install': False, 'path': '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection', 'symlink_install': False, 'test_result_base': None}
+[4.008s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.019s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.022s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection' with build type 'ament_python'
+[4.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('tiago_inspection', 'ament_prefix_path')
+[4.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/hook/ament_prefix_path.ps1'
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/hook/ament_prefix_path.dsv'
+[4.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/hook/ament_prefix_path.sh'
+[4.073s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.495s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection'
+[6.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection': PYTHONPATH=/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tiago_inspection build --build-base /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/build install --record /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/install.log --single-version-externally-managed install_data
+[10.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ros2_ws/src/nb-246830/stage_3/tiago_inspection' returned '0': PYTHONPATH=/root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tiago_inspection build --build-base /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/build install --record /root/ros2_ws/src/nb-246830/stage_3/build/tiago_inspection/install.log --single-version-externally-managed install_data
+[10.954s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection' for CMake module files
+[10.956s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection' for CMake config files
+[10.960s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib'
+[10.961s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/bin'
+[10.962s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/pkgconfig/tiago_inspection.pc'
+[10.963s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/lib/python3.10/site-packages'
+[10.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('tiago_inspection', 'pythonpath')
+[10.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/hook/pythonpath.ps1'
+[10.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/hook/pythonpath.dsv'
+[10.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/hook/pythonpath.sh'
+[10.971s] Level 1:colcon.colcon_core.environment:checking '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/bin'
+[10.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tiago_inspection)
+[10.974s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/package.ps1'
+[11.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/package.dsv'
+[11.028s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/package.sh'
+[11.032s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/package.bash'
+[11.037s] INFO:colcon.colcon_core.shell:Creating package script '/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/tiago_inspection/package.zsh'
+[11.040s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ros2_ws/src/nb-246830/stage_3/install/tiago_inspection/share/colcon-core/packages/tiago_inspection)
+[11.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.045s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.045s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.076s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.082s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[11.084s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/nb-246830/stage_3/install/local_setup.ps1'
+[11.096s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/src/nb-246830/stage_3/install/_local_setup_util_ps1.py'
+[11.105s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/nb-246830/stage_3/install/setup.ps1'
+[11.119s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/nb-246830/stage_3/install/local_setup.sh'
+[11.123s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ros2_ws/src/nb-246830/stage_3/install/_local_setup_util_sh.py'
+[11.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/nb-246830/stage_3/install/setup.sh'
+[11.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/nb-246830/stage_3/install/local_setup.bash'
+[11.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/nb-246830/stage_3/install/setup.bash'
+[11.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ros2_ws/src/nb-246830/stage_3/install/local_setup.zsh'
+[11.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ros2_ws/src/nb-246830/stage_3/install/setup.zsh'
